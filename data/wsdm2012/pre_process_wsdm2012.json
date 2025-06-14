@@ -52,7 +52,8 @@
             "composition": 1,
             "retrieved": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124299"
+        "link": "https://doi.org/10.1145/2124295.2124299",
+        "label": 0
     },
     {
         "title": "Auralist: introducing serendipity into music recommendation.",
@@ -127,7 +128,8 @@
             "indeed": 1,
             "satisfaction": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124300"
+        "link": "https://doi.org/10.1145/2124295.2124300",
+        "label": 0
     },
     {
         "title": "Efficient misbehaving user detection in online video chat services.",
@@ -235,7 +237,8 @@
             "art": 1,
             "technique": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124301"
+        "link": "https://doi.org/10.1145/2124295.2124301",
+        "label": 0
     },
     {
         "title": "Beyond co-occurrence: discovering and visualizing tag relationships from geo-spatial and temporal similarities.",
@@ -317,7 +320,8 @@
             "data": 1,
             "annotation": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124302"
+        "link": "https://doi.org/10.1145/2124295.2124302",
+        "label": 0
     },
     {
         "title": "Object matching in tweets with spatial models.",
@@ -380,7 +384,8 @@
             "independent": 1,
             "interest": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124303"
+        "link": "https://doi.org/10.1145/2124295.2124303",
+        "label": 0
     },
     {
         "title": "Beyond 100 million entities: large-scale blocking-based resolution for heterogeneous data.",
@@ -457,7 +462,8 @@
             "computational": 1,
             "cost": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124305"
+        "link": "https://doi.org/10.1145/2124295.2124305",
+        "label": 0
     },
     {
         "title": "Mining contrastive opinions on political texts using cross-perspective topic model.",
@@ -560,7 +566,8 @@
             "show": 1,
             "effectiveness": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124306"
+        "link": "https://doi.org/10.1145/2124295.2124306",
+        "label": 0
     },
     {
         "title": "Coupled temporal scoping of relational facts.",
@@ -675,7 +682,8 @@
             "demonstrate": 1,
             "effectiveness": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124307"
+        "link": "https://doi.org/10.1145/2124295.2124307",
+        "label": 0
     },
     {
         "title": "Overcoming browser cookie churn with clustering.",
@@ -763,7 +771,8 @@
             "recommender": 1,
             "system": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124308"
+        "link": "https://doi.org/10.1145/2124295.2124308",
+        "label": 0
     },
     {
         "title": "mTrust: discerning multi-faceted trust in a connected world.",
@@ -853,7 +862,8 @@
             "status": 1,
             "theory": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124309"
+        "link": "https://doi.org/10.1145/2124295.2124309",
+        "label": 0
     },
     {
         "title": "Of hammers and nails: an empirical comparison of three paradigms for processing large graphs.",
@@ -908,7 +918,8 @@
             "becomes": 1,
             "challenge": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124310"
+        "link": "https://doi.org/10.1145/2124295.2124310",
+        "label": 0
     },
     {
         "title": "Pairwise cross-domain factor model for heterogeneous transfer ranking.",
@@ -1030,7 +1041,8 @@
             "demonstrate": 1,
             "effectiveness": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124311"
+        "link": "https://doi.org/10.1145/2124295.2124311",
+        "label": 0
     },
     {
         "title": "Scalable inference in latent variable models.",
@@ -1155,7 +1167,8 @@
             "source": 1,
             "implementation": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124312"
+        "link": "https://doi.org/10.1145/2124295.2124312",
+        "label": 0
     },
     {
         "title": "Learning recommender systems with adaptive regularization.",
@@ -1254,7 +1267,8 @@
             "practical": 1,
             "use": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124313"
+        "link": "https://doi.org/10.1145/2124295.2124313",
+        "label": 0
     },
     {
         "title": "Collaborative ranking.",
@@ -1332,7 +1346,8 @@
             "efficiency": 1,
             "benefit": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124314"
+        "link": "https://doi.org/10.1145/2124295.2124314",
+        "label": 0
     },
     {
         "title": "From chatter to headlines: harnessing the real-time web for personalized news recommendation.",
@@ -1379,7 +1394,8 @@
             "whole": 1,
             "land": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124315"
+        "link": "https://doi.org/10.1145/2124295.2124315",
+        "label": 0
     },
     {
         "title": "ETF: extended tensor factorization model for personalizing prediction of review helpfulness.",
@@ -1475,7 +1491,8 @@
             "affect": 1,
             "evaluation": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124316"
+        "link": "https://doi.org/10.1145/2124295.2124316",
+        "label": 0
     },
     {
         "title": "Multi-relational matrix factorization using bayesian personalized ranking for social network data.",
@@ -1508,7 +1525,8 @@
             "connection": 1,
             "object": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124317"
+        "link": "https://doi.org/10.1145/2124295.2124317",
+        "label": 0
     },
     {
         "title": "Comment spam detection by sequence mining.",
@@ -1567,7 +1585,8 @@
             "content": 2,
             "good": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124318"
+        "link": "https://doi.org/10.1145/2124295.2124318",
+        "label": 0
     },
     {
         "title": "Mining slang and urban opinion words and phrases from cQA services: an optimization approach.",
@@ -1666,7 +1685,8 @@
             "sentiment": 1,
             "classification": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124319"
+        "link": "https://doi.org/10.1145/2124295.2124319",
+        "label": 0
     },
     {
         "title": "What's in a hashtag?: content based prediction of the spread of ideas in microblogging communities.",
@@ -1717,7 +1737,8 @@
             "minimize": 1,
             "error": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124320"
+        "link": "https://doi.org/10.1145/2124295.2124320",
+        "label": 0
     },
     {
         "title": "WebSets: extracting sets of entities from the web using unsupervised information extraction.",
@@ -1775,7 +1796,8 @@
             "accurately": 1,
             "number": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124327"
+        "link": "https://doi.org/10.1145/2124295.2124327",
+        "label": 0
     },
     {
         "title": "Selecting actions for resource-bounded information extraction using reinforcement learning.",
@@ -1855,7 +1877,8 @@
             "f": 1,
             "possible": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124328"
+        "link": "https://doi.org/10.1145/2124295.2124328",
+        "label": 0
     },
     {
         "title": "Online selection of diverse results.",
@@ -1973,7 +1996,8 @@
             "wide": 1,
             "margin": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124329"
+        "link": "https://doi.org/10.1145/2124295.2124329",
+        "label": 0
     },
     {
         "title": "Overlapping clusters for distributed computation.",
@@ -2049,7 +2073,8 @@
             "information": 1,
             "network": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124330"
+        "link": "https://doi.org/10.1145/2124295.2124330",
+        "label": 0
     },
     {
         "title": "No search result left behind: branching behavior with browser tabs.",
@@ -2137,7 +2162,8 @@
             "branched": 1,
             "improve": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124322"
+        "link": "https://doi.org/10.1145/2124295.2124322",
+        "label": 0
     },
     {
         "title": "Characterizing web content, user interests, and search behavior by reading level and topic.",
@@ -2207,7 +2233,8 @@
             "compare": 1,
             "different": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124323"
+        "link": "https://doi.org/10.1145/2124295.2124323",
+        "label": 0
     },
     {
         "title": "Topical clustering of search results.",
@@ -2242,7 +2269,8 @@
             "topic": 1,
             "include": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124324"
+        "link": "https://doi.org/10.1145/2124295.2124324",
+        "label": 0
     },
     {
         "title": "To each his own: personalized content selection based on text comprehensibility.",
@@ -2353,7 +2381,8 @@
             "result": 1,
             "respectively": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124325"
+        "link": "https://doi.org/10.1145/2124295.2124325",
+        "label": 0
     },
     {
         "title": "Probabilistic models for personalizing web search.",
@@ -2437,7 +2466,8 @@
             "improvement": 1,
             "acronym": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124348"
+        "link": "https://doi.org/10.1145/2124295.2124348",
+        "label": 0
     },
     {
         "title": "Effective query formulation with multiple information sources.",
@@ -2504,7 +2534,8 @@
             "retrieved": 1,
             "result": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124349"
+        "link": "https://doi.org/10.1145/2124295.2124349",
+        "label": 0
     },
     {
         "title": "Learning to rank with multi-aspect relevance for vertical search.",
@@ -2595,7 +2626,8 @@
             "include": 1,
             "conventional": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124350"
+        "link": "https://doi.org/10.1145/2124295.2124350",
+        "label": 0
     },
     {
         "title": "Beyond ten blue links: enabling user click modeling in federated web search.",
@@ -2702,7 +2734,8 @@
             "log": 1,
             "likelihood": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124351"
+        "link": "https://doi.org/10.1145/2124295.2124351",
+        "label": 0
     },
     {
         "title": "Sponsored search auctions with conflict constraints.",
@@ -2764,7 +2797,8 @@
             "potentially": 1,
             "increase": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124332"
+        "link": "https://doi.org/10.1145/2124295.2124332",
+        "label": 0
     },
     {
         "title": "Post-click conversion modeling and analysis for non-guaranteed delivery display advertising.",
@@ -2860,7 +2894,8 @@
             "scale": 1,
             "platform": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124333"
+        "link": "https://doi.org/10.1145/2124295.2124333",
+        "label": 0
     },
     {
         "title": "Incorporating revisiting behaviors into click models.",
@@ -2976,7 +3011,8 @@
             "distribution": 1,
             "metric": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124334"
+        "link": "https://doi.org/10.1145/2124295.2124334",
+        "label": 0
     },
     {
         "title": "A noise-aware click model for web search.",
@@ -3079,7 +3115,8 @@
             "perplexity": 1,
             "ndcg": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124335"
+        "link": "https://doi.org/10.1145/2124295.2124335",
+        "label": 0
     },
     {
         "title": "Personalized click model through collaborative filtering.",
@@ -3193,7 +3230,8 @@
             "good": 1,
             "previous": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124336"
+        "link": "https://doi.org/10.1145/2124295.2124336",
+        "label": 0
     },
     {
         "title": "Fair and balanced: learning to present news stories.",
@@ -3279,7 +3317,8 @@
             "deploy": 1,
             "production": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124337"
+        "link": "https://doi.org/10.1145/2124295.2124337",
+        "label": 0
     },
     {
         "title": "Extracting search-focused key n-grams for relevance ranking in web search.",
@@ -3372,7 +3411,8 @@
             "investigate": 1,
             "comprehensive": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124338"
+        "link": "https://doi.org/10.1145/2124295.2124338",
+        "label": 0
     },
     {
         "title": "Query suggestion by constructing term-transition graphs.",
@@ -3474,7 +3514,8 @@
             "increase": 1,
             "category": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124339"
+        "link": "https://doi.org/10.1145/2124295.2124339",
+        "label": 0
     },
     {
         "title": "Language models for keyword search over data graphs.",
@@ -3549,7 +3590,8 @@
             "knowledge": 1,
             "structure": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124340"
+        "link": "https://doi.org/10.1145/2124295.2124340",
+        "label": 0
     },
     {
         "title": "Large-scale analysis of individual and task differences in search result page examination strategies.",
@@ -3637,7 +3679,8 @@
             "implicit": 1,
             "feedback": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124341"
+        "link": "https://doi.org/10.1145/2124295.2124341",
+        "label": 0
     },
     {
         "title": "Sequence clustering and labeling for unsupervised query intent discovery.",
@@ -3728,7 +3771,8 @@
             "majority": 1,
             "annotator": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124342"
+        "link": "https://doi.org/10.1145/2124295.2124342",
+        "label": 0
     },
     {
         "title": "IR system evaluation using nugget-based test collections.",
@@ -3823,7 +3867,8 @@
             "future": 1,
             "application": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124343"
+        "link": "https://doi.org/10.1145/2124295.2124343",
+        "label": 0
     },
     {
         "title": "Tapping into knowledge base for concept feedback: leveraging conceptnet to improve search results for difficult queries.",
@@ -3925,7 +3970,8 @@
             "pseudo": 1,
             "relevance": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124344"
+        "link": "https://doi.org/10.1145/2124295.2124344",
+        "label": 0
     },
     {
         "title": "Domain bias in web search.",
@@ -4025,7 +4071,8 @@
             "discount": 1,
             "reputable": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124345"
+        "link": "https://doi.org/10.1145/2124295.2124345",
+        "label": 0
     },
     {
         "title": "Optimized top-k processing with global page scores on block-max indexes.",
@@ -4146,7 +4193,8 @@
             "considerable": 1,
             "gain": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124346"
+        "link": "https://doi.org/10.1145/2124295.2124346",
+        "label": 0
     },
     {
         "title": "Finding the right consumer: optimizing for conversion in display advertising campaigns.",
@@ -4246,7 +4294,8 @@
             "complimentary": 1,
             "valuable": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124353"
+        "link": "https://doi.org/10.1145/2124295.2124353",
+        "label": 0
     },
     {
         "title": "Fast top-k retrieval for model based recommendation.",
@@ -4339,7 +4388,8 @@
             "computation": 1,
             "runtime": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124354"
+        "link": "https://doi.org/10.1145/2124295.2124354",
+        "label": 0
     },
     {
         "title": "Relational click prediction for sponsored search.",
@@ -4445,7 +4495,8 @@
             "best": 1,
             "knowledge": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124355"
+        "link": "https://doi.org/10.1145/2124295.2124355",
+        "label": 0
     },
     {
         "title": "\"I loan because...\": understanding motivations for pro-social lending.",
@@ -4522,7 +4573,8 @@
             "might": 1,
             "increase": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124356"
+        "link": "https://doi.org/10.1145/2124295.2124356",
+        "label": 0
     },
     {
         "title": "Correlating financial time series with micro-blogging activity.",
@@ -4606,7 +4658,8 @@
             "outperform": 1,
             "baseline": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124358"
+        "link": "https://doi.org/10.1145/2124295.2124358",
+        "label": 0
     },
     {
         "title": "Harmony and dissonance: organizing the people's voices on political controversies.",
@@ -4668,7 +4721,8 @@
             "support": 1,
             "opposition": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124359"
+        "link": "https://doi.org/10.1145/2124295.2124359",
+        "label": 0
     },
     {
         "title": "Identifying content for planned events across social media sites.",
@@ -4756,7 +4810,8 @@
             "analyze": 1,
             "effectiveness": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124360"
+        "link": "https://doi.org/10.1145/2124295.2124360",
+        "label": 0
     },
     {
         "title": "Daily deals: prediction, social diffusion, and reputational ramifications.",
@@ -4861,7 +4916,8 @@
             "low": 1,
             "peer": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124361"
+        "link": "https://doi.org/10.1145/2124295.2124361",
+        "label": 0
     },
     {
         "title": "Effects of user similarity in social media.",
@@ -4913,7 +4969,8 @@
             "type": 1,
             "give": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124378"
+        "link": "https://doi.org/10.1145/2124295.2124378",
+        "label": 0
     },
     {
         "title": "How user behavior is related to social affinity.",
@@ -5022,7 +5079,8 @@
             "high": 1,
             "similarity": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124379"
+        "link": "https://doi.org/10.1145/2124295.2124379",
+        "label": 0
     },
     {
         "title": "Finding your friends and following them to where you are.",
@@ -5132,7 +5190,8 @@
             "approach": 1,
             "either": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124380"
+        "link": "https://doi.org/10.1145/2124295.2124380",
+        "label": 0
     },
     {
         "title": "How to win friends and influence people, truthfully: influence maximization mechanisms for social networks.",
@@ -5194,7 +5253,8 @@
             "difficult": 1,
             "extract": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124381"
+        "link": "https://doi.org/10.1145/2124295.2124381",
+        "label": 0
     },
     {
         "title": "Inferring social ties across heterogenous networks.",
@@ -5282,7 +5342,8 @@
             "enterprise": 1,
             "email": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124382"
+        "link": "https://doi.org/10.1145/2124295.2124382",
+        "label": 0
     },
     {
         "title": "On clustering heterogeneous social media objects with outlier links.",
@@ -5358,7 +5419,8 @@
             "state": 1,
             "art": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124363"
+        "link": "https://doi.org/10.1145/2124295.2124363",
+        "label": 0
     },
     {
         "title": "Adding semantics to microblog posts.",
@@ -5461,7 +5523,8 @@
             "term": 1,
             "precision": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124364"
+        "link": "https://doi.org/10.1145/2124295.2124364",
+        "label": 0
     },
     {
         "title": "Exploring social influence via posterior effect of word-of-mouth recommendations.",
@@ -5563,7 +5626,8 @@
             "friend": 1,
             "strong": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124365"
+        "link": "https://doi.org/10.1145/2124295.2124365",
+        "label": 0
     },
     {
         "title": "Find me opinion sources in blogosphere: a unified framework for opinionated blog feed retrieval.",
@@ -5662,7 +5726,8 @@
             "trec": 1,
             "effectiveness": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124366"
+        "link": "https://doi.org/10.1145/2124295.2124366",
+        "label": 0
     },
     {
         "title": "Understanding cyclic trends in social choices.",
@@ -5723,7 +5788,8 @@
             "single": 1,
             "cycling": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124367"
+        "link": "https://doi.org/10.1145/2124295.2124367",
+        "label": 0
     },
     {
         "title": "Maximizing product adoption in social networks.",
@@ -5789,7 +5855,8 @@
             "account": 1,
             "phenomenon": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124368"
+        "link": "https://doi.org/10.1145/2124295.2124368",
+        "label": 0
     },
     {
         "title": "Answers, not links: extracting tips from yahoo! answers to address how-to web queries.",
@@ -5862,7 +5929,8 @@
             "size": 1,
             "serve": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124369"
+        "link": "https://doi.org/10.1145/2124295.2124369",
+        "label": 0
     },
     {
         "title": "A straw shows which way the wind blows: ranking potentially popular items from early votes.",
@@ -5952,7 +6020,8 @@
             "especially": 1,
             "smallerk": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124370"
+        "link": "https://doi.org/10.1145/2124295.2124370",
+        "label": 0
     },
     {
         "title": "A large-scale sentiment analysis for Yahoo! answers.",
@@ -6075,7 +6144,8 @@
             "recommendation": 1,
             "search": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124371"
+        "link": "https://doi.org/10.1145/2124295.2124371",
+        "label": 0
     },
     {
         "title": "Tips, dones and todos: uncovering user profiles in foursquare.",
@@ -6164,7 +6234,8 @@
             "nature": 1,
             "domain": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124372"
+        "link": "https://doi.org/10.1145/2124295.2124372",
+        "label": 0
     },
     {
         "title": "When will it happen?: relationship prediction in heterogeneous information networks.",
@@ -6253,7 +6324,8 @@
             "effectiveness": 1,
             "methodology": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124373"
+        "link": "https://doi.org/10.1145/2124295.2124373",
+        "label": 0
     },
     {
         "title": "The life and death of online groups: predicting group growth and longevity.",
@@ -6326,7 +6398,8 @@
             "formation": 1,
             "demise": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124374"
+        "link": "https://doi.org/10.1145/2124295.2124374",
+        "label": 0
     },
     {
         "title": "Evaluating search in personal social media collections.",
@@ -6403,7 +6476,8 @@
             "two": 1,
             "version": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124375"
+        "link": "https://doi.org/10.1145/2124295.2124375",
+        "label": 0
     },
     {
         "title": "Learning evolving and emerging topics in social media: a dynamic nmf approach with temporal regularization.",
@@ -6534,6 +6608,7 @@
             "amount": 1,
             "present": 1
         },
-        "link": "https://doi.org/10.1145/2124295.2124376"
+        "link": "https://doi.org/10.1145/2124295.2124376",
+        "label": 0
     }
 ]

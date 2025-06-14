@@ -1,0 +1,81 @@
+Clusters: 3
+
+--- Cluster 0 ---
+Title: Spatially-aware indexing for image object retrieval., Cluster: 0
+Title: Mining contrastive opinions on political texts using cross-perspective topic model., Cluster: 0
+Title: Coupled temporal scoping of relational facts., Cluster: 0
+Title: Of hammers and nails: an empirical comparison of three paradigms for processing large graphs., Cluster: 0
+Title: Pairwise cross-domain factor model for heterogeneous transfer ranking., Cluster: 0
+Title: Collaborative ranking., Cluster: 0
+Title: Comment spam detection by sequence mining., Cluster: 0
+Title: Mining slang and urban opinion words and phrases from cQA services: an optimization approach., Cluster: 0
+Title: WebSets: extracting sets of entities from the web using unsupervised information extraction., Cluster: 0
+Title: Selecting actions for resource-bounded information extraction using reinforcement learning., Cluster: 0
+Title: Overlapping clusters for distributed computation., Cluster: 0
+Title: Characterizing web content, user interests, and search behavior by reading level and topic., Cluster: 0
+Title: Topical clustering of search results., Cluster: 0
+Title: To each his own: personalized content selection based on text comprehensibility., Cluster: 0
+Title: Probabilistic models for personalizing web search., Cluster: 0
+Title: Effective query formulation with multiple information sources., Cluster: 0
+Title: Learning to rank with multi-aspect relevance for vertical search., Cluster: 0
+Title: Sponsored search auctions with conflict constraints., Cluster: 0
+Title: Fair and balanced: learning to present news stories., Cluster: 0
+Title: Extracting search-focused key n-grams for relevance ranking in web search., Cluster: 0
+Title: Query suggestion by constructing term-transition graphs., Cluster: 0
+Title: Language models for keyword search over data graphs., Cluster: 0
+Title: Sequence clustering and labeling for unsupervised query intent discovery., Cluster: 0
+Title: IR system evaluation using nugget-based test collections., Cluster: 0
+Title: Tapping into knowledge base for concept feedback: leveraging conceptnet to improve search results for difficult queries., Cluster: 0
+Title: Optimized top-k processing with global page scores on block-max indexes., Cluster: 0
+Title: Fast top-k retrieval for model based recommendation., Cluster: 0
+Title: Harmony and dissonance: organizing the people's voices on political controversies., Cluster: 0
+Title: Adding semantics to microblog posts., Cluster: 0
+Title: Find me opinion sources in blogosphere: a unified framework for opinionated blog feed retrieval., Cluster: 0
+Title: Answers, not links: extracting tips from yahoo! answers to address how-to web queries., Cluster: 0
+Title: Evaluating search in personal social media collections., Cluster: 0
+Title: Learning evolving and emerging topics in social media: a dynamic nmf approach with temporal regularization., Cluster: 0
+--- Cluster 1 ---
+Title: Overcoming browser cookie churn with clustering., Cluster: 1
+Title: From chatter to headlines: harnessing the real-time web for personalized news recommendation., Cluster: 1
+Title: No search result left behind: branching behavior with browser tabs., Cluster: 1
+Title: Beyond ten blue links: enabling user click modeling in federated web search., Cluster: 1
+Title: Post-click conversion modeling and analysis for non-guaranteed delivery display advertising., Cluster: 1
+Title: Incorporating revisiting behaviors into click models., Cluster: 1
+Title: A noise-aware click model for web search., Cluster: 1
+Title: Personalized click model through collaborative filtering., Cluster: 1
+Title: Large-scale analysis of individual and task differences in search result page examination strategies., Cluster: 1
+Title: Domain bias in web search., Cluster: 1
+Title: Relational click prediction for sponsored search., Cluster: 1
+Title: How user behavior is related to social affinity., Cluster: 1
+--- Cluster 2 ---
+Title: Auralist: introducing serendipity into music recommendation., Cluster: 2
+Title: Efficient misbehaving user detection in online video chat services., Cluster: 2
+Title: Beyond co-occurrence: discovering and visualizing tag relationships from geo-spatial and temporal similarities., Cluster: 2
+Title: Object matching in tweets with spatial models., Cluster: 2
+Title: Beyond 100 million entities: large-scale blocking-based resolution for heterogeneous data., Cluster: 2
+Title: mTrust: discerning multi-faceted trust in a connected world., Cluster: 2
+Title: Scalable inference in latent variable models., Cluster: 2
+Title: Learning recommender systems with adaptive regularization., Cluster: 2
+Title: ETF: extended tensor factorization model for personalizing prediction of review helpfulness., Cluster: 2
+Title: Multi-relational matrix factorization using bayesian personalized ranking for social network data., Cluster: 2
+Title: What's in a hashtag?: content based prediction of the spread of ideas in microblogging communities., Cluster: 2
+Title: Online selection of diverse results., Cluster: 2
+Title: Finding the right consumer: optimizing for conversion in display advertising campaigns., Cluster: 2
+Title: "I loan because...": understanding motivations for pro-social lending., Cluster: 2
+Title: Correlating financial time series with micro-blogging activity., Cluster: 2
+Title: Identifying content for planned events across social media sites., Cluster: 2
+Title: Daily deals: prediction, social diffusion, and reputational ramifications., Cluster: 2
+Title: Effects of user similarity in social media., Cluster: 2
+Title: Finding your friends and following them to where you are., Cluster: 2
+Title: How to win friends and influence people, truthfully: influence maximization mechanisms for social networks., Cluster: 2
+Title: Inferring social ties across heterogenous networks., Cluster: 2
+Title: On clustering heterogeneous social media objects with outlier links., Cluster: 2
+Title: Exploring social influence via posterior effect of word-of-mouth recommendations., Cluster: 2
+Title: Understanding cyclic trends in social choices., Cluster: 2
+Title: Maximizing product adoption in social networks., Cluster: 2
+Title: A straw shows which way the wind blows: ranking potentially popular items from early votes., Cluster: 2
+Title: A large-scale sentiment analysis for Yahoo! answers., Cluster: 2
+Title: Tips, dones and todos: uncovering user profiles in foursquare., Cluster: 2
+Title: When will it happen?: relationship prediction in heterogeneous information networks., Cluster: 2
+Title: The life and death of online groups: predicting group growth and longevity., Cluster: 2
+
