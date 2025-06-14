@@ -6,6 +6,7 @@ from runpipeline import run_pipeline
 from skmean import process_directory  # dùng đúng hàm gốc, không thêm hàm mới
 from skmean import process_folder
 
+os.makedirs("data", exist_ok=True)
 app = Flask(__name__)
 CORS(app)
 
