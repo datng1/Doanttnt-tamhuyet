@@ -1,6 +1,18 @@
 import os
 import json
 import module  # Đảm bảo module.py có các hàm được gọi
+import traceback
+
+def ensure_format(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    for item in data:
+        item.setdefault("abstract", "")
+        item.setdefault("label", 0)
+
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
 
 def run_pipeline(folder):
     folder_path = os.path.join("data", folder)
@@ -10,16 +22,19 @@ def run_pipeline(folder):
 
     print(f"🚀 Starting pipeline for {folder}")
     try:
+        # Đảm bảo file đầu vào đúng định dạng
+        ensure_format(raw_path)
+
         # 1. Pre-process
         with open(raw_path, "r", encoding="utf-8") as f:
             data = json.load(f)
 
         output_list = []
         for record in data:
-            if record.get("abstract") == None:
-                record["abstract"] = module.convert_todict(record['title'])
-            else:
-                record["abstract"] = module.convert_todict(record['title'] + record["abstract"])
+            text = record.get("title", "")
+            if record.get("abstract"):
+                text += record["abstract"]
+            record["abstract"] = module.convert_todict(text)
             output_list.append(record)
 
         with open(pre_path, "w", encoding="utf-8") as f:
@@ -34,7 +49,9 @@ def run_pipeline(folder):
         with open(pre_path, "r", encoding="utf-8") as f:
             pre_data = json.load(f)
 
-        modified_data = [module.modify_paper(record, folder) for record in pre_data]
+        modified_data = [
+            module.modify_paper(record, folder) for record in pre_data
+        ]
 
         with open(final_path, "w", encoding="utf-8") as f:
             json.dump(modified_data, f, indent=4)
@@ -45,13 +62,13 @@ def run_pipeline(folder):
         print("✅ Step 4: Normalisation complete.")
 
         print(f"🎉 Pipeline completed for {folder}\n")
-    except Exception as e:
-        print(f"{e}")
 
+    except Exception:
+        print("❌ Lỗi khi chạy pipeline:")
+        print(traceback.format_exc())
 
 # if __name__ == "__main__":
 #     data_path = "data"
 #     folders = [name for name in os.listdir(data_path) if os.path.isdir(os.path.join(data_path, name))]
-
 #     for folder in folders:
 #         run_pipeline(folder)
