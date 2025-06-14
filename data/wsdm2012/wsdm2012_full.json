@@ -1,0 +1,797 @@
+[
+  {
+    "title": "Spatially-aware indexing for image object retrieval.",
+    "authors": [
+      "Roelof van Zwol",
+      "Lluis Garcia Pueyo"
+    ],
+    "abstract": "The success of image object retrieval systems relies on the visual bag-of-words paradigm, which allows image retrieval systems to adopt a retrieval strategy analogous to text retrieval. In this paper we propose two spatially-aware retrieval strategies for image object retrieval that replaces the vector space model. The advantage of the proposed spatially-aware indexing and retrieval strategies are threefold: (1) It allows for the deployment of small visual vocabularies, (2) the number of images evaluated at retrieval time is significantly reduced, and (3) it eliminates the need for a post-retrieval phase, which is normally used to test the spatial composition of the visual words in the retrieved images.",
+    "link": "https://doi.org/10.1145/2124295.2124299"
+  },
+  {
+    "title": "Auralist: introducing serendipity into music recommendation.",
+    "authors": [
+      "Yuan Cao Zhang",
+      "Diarmuid Ó Séaghdha",
+      "Daniele Quercia",
+      "Tamas Jambor"
+    ],
+    "abstract": "Recommendation systems exist to help users discover content in a large body of items. An ideal recommendation system should mimic the actions of a trusted friend or expert, producing a personalised collection of recommendations that balance between the desired goals of accuracy, diversity, novelty and serendipity. We introduce theAuralistrecommendation framework, a system that - in contrast to previous work - attempts to balance and improve all four factors simultaneously. Using a collection of novel algorithms inspired by principles of \"serendipitous discovery\", we demonstrate a method of successfully injecting serendipity, novelty and diversity into recommendations whilst limiting the impact on accuracy. We evaluateAuralistquantitatively over a broad set of metrics and, with a user study on music recommendation, show thatAuralist'semphasis on serendipity indeed improves user satisfaction.",
+    "link": "https://doi.org/10.1145/2124295.2124300"
+  },
+  {
+    "title": "Efficient misbehaving user detection in online video chat services.",
+    "authors": [
+      "Hanqiang Cheng",
+      "Yu-Li Liang",
+      "Xinyu Xing",
+      "Xue Liu",
+      "Richard Han",
+      "Qin Lv",
+      "Shivakant Mishra"
+    ],
+    "abstract": "Online video chat services, such as Chatroulette, Omegle, and vChatter are becoming increasingly popular and have attracted millions of users. One critical problem encountered in such applications is the presence of misbehaving users (\"flashers\") and obscene content. Automatically filtering out obscene content from these systems in anefficientmanner poses a difficult challenge. This paper presents a novel Fine-Grained Cascaded (FGC) classification solution that significantly speeds up the compute-intensive process of classifying misbehaving users by dividing image feature extraction into multiple stages and filtering out easily classified images in earlier stages, thus saving unnecessary computation costs of feature extraction in later stages. Our work is further enhanced by integrating new webcam-related contextual information (illumination and color) into the classification process, and a 2-stage soft margin SVM algorithm for combining multiple features. Evaluation results using real-world data set obtained from Chatroulette show that the proposed FGC based classification solution significantly outperforms state-of-the-art techniques.",
+    "link": "https://doi.org/10.1145/2124295.2124301"
+  },
+  {
+    "title": "Beyond co-occurrence: discovering and visualizing tag relationships from geo-spatial and temporal similarities.",
+    "authors": [
+      "Haipeng Zhang",
+      "Mohammed Korayem",
+      "Erkang You",
+      "David J. Crandall"
+    ],
+    "abstract": "Studying relationships between keyword tags on social sharing websites has become a popular topic of research, both to improve tag suggestion systems and to discover connections between the concepts that the tags represent. Existing approaches have largely relied on tag co-occurrences. In this paper, we show how to find connections between tags by comparing their distributions over time and space, discovering tags with similar geographic and temporal patterns of use. Geo-spatial, temporal and geo-temporal distributions of tags are extracted and represented as vectors which can then be compared and clustered. Using a dataset of tens of millions of geo-tagged Flickr photos, we show that we can cluster Flickr photo tags based on their geographic and temporal patterns, and we evaluate the results both qualitatively and quantitatively using a panel of human judges. We also develop visualizations of temporal and geographic tag distributions, and show that they help humans recognize semantic relationships between tags. This approach to finding and visualizing similar tags is potentially useful for exploring any data having geographic and temporal annotations.",
+    "link": "https://doi.org/10.1145/2124295.2124302"
+  },
+  {
+    "title": "Object matching in tweets with spatial models.",
+    "authors": [
+      "Nilesh N. Dalvi",
+      "Ravi Kumar",
+      "Bo Pang"
+    ],
+    "abstract": "Despite their 140-character limitation, tweets embody a lot of valuable information, especially temporal and spatial. In this paper we study the geographic aspects of tweets, for a given object domain. We propose a user-level model for spatial encoding in tweets that goes beyond the explicit geo-coding or place name mentions; this model can be used to match objects to tweets. We illustrate our model and methodology using restaurants as the objects, and show a significant improvement in performance over using standard language models. En route, we obtain a method to geolocate users who tweet about geolocated objects; this may be of independent interest.",
+    "link": "https://doi.org/10.1145/2124295.2124303"
+  },
+  {
+    "title": "Beyond 100 million entities: large-scale blocking-based resolution for heterogeneous data.",
+    "authors": [
+      "George Papadakis",
+      "Ekaterini Ioannou",
+      "Claudia Niederée",
+      "Themis Palpanas",
+      "Wolfgang Nejdl"
+    ],
+    "abstract": "A prerequisite for leveraging the vast amount of data available on the Web is Entity Resolution, i.e., the process of identifying and linking data that describe the same real-world objects. To make this inherently quadratic process applicable to large data sets, blocking is typically employed: entities (records) are grouped into clusters - the blocks - of matching candidates and only entities of the same block are compared. However, novel blocking techniques are required for dealing with the noisy, heterogeneous, semi-structured, user-generateddata in the Web, as traditional blocking techniques are inapplicable due to their reliance on schema information. The introduction of redundancy, improves the robustness of blocking methods but comes at the price of additional computational cost.",
+    "link": "https://doi.org/10.1145/2124295.2124305"
+  },
+  {
+    "title": "Mining contrastive opinions on political texts using cross-perspective topic model.",
+    "authors": [
+      "Yi Fang",
+      "Luo Si",
+      "Naveen Somasundaram",
+      "Zhengtao Yu"
+    ],
+    "abstract": "This paper presents a novel opinion mining research problem, which is called Contrastive Opinion Modeling (COM). Given any query topic and a set of text collections from multiple perspectives, the task of COM is to present the opinions of the individual perspectives on the topic, and furthermore to quantify their difference. This general problem subsumes many interesting applications, including opinion summarization and forecasting, government intelligence and cross-cultural studies. We propose a novel unsupervised topic model for contrastive opinion modeling. It simulates the generative process of how opinion words occur in the documents of different collections. The ad hoc opinion search process can be efficiently accomplished based on the learned parameters in the model. The difference of perspectives can be quantified in a principled way by the Jensen-Shannon divergence among the individual topic-opinion distributions. An extensive set of experiments have been conducted to evaluate the proposed model on two datasets in the political domain: 1) statement records of U.S. senators; 2) world news reports from three representative media in U.S., China and India, respectively. The experimental results with both qualitative and quantitative analysis have shown the effectiveness of the proposed model.",
+    "link": "https://doi.org/10.1145/2124295.2124306"
+  },
+  {
+    "title": "Coupled temporal scoping of relational facts.",
+    "authors": [
+      "Partha Pratim Talukdar",
+      "Derry Wijaya",
+      "Tom M. Mitchell"
+    ],
+    "abstract": "Recent research has made significant advances in automatically constructing knowledge bases by extracting relational facts (e.g., Bill Clinton-presidentOf-US) from large text corpora. Temporally scoping such relational facts in the knowledge base (i.e., determining that Bill Clinton-presidentOf-US is true only during the period 1993 - 2001) is an important, but relatively unexplored problem. In this paper, we propose a joint inference framework for this task, which leverages fact-specific temporal constraints, and weak supervision in the form of a few labeled examples. Our proposed framework, CoTS (Coupled Temporal Scoping), exploits temporal containment, alignment, succession, and mutual exclusion constraints among facts from within and across relations. Our contribution is multi-fold. Firstly, while most previous research has focused on micro-reading approaches for temporal scoping, we pose it in a macro-reading fashion, as a change detection in a time series of facts' features computed from a large number of documents. Secondly, to the best of our knowledge, there is no other work that has used joint inference for temporal scoping. We show that joint inference is effective compared to doing temporal scoping of individual facts independently. We conduct our experiments on large scale open-domain publicly available time-stamped datasets, such as English Gigaword Corpus and Google Books Ngrams, demonstrating CoTS's effectiveness.",
+    "link": "https://doi.org/10.1145/2124295.2124307"
+  },
+  {
+    "title": "Overcoming browser cookie churn with clustering.",
+    "authors": [
+      "Anirban Dasgupta",
+      "Maxim Gurevich",
+      "Liang Zhang",
+      "Belle L. Tseng",
+      "Achint Oommen Thomas"
+    ],
+    "abstract": "Many large Internet websites are accessed by users anonymously, without requiring registration or logging-in. However, to provide personalized service these sites build anonymous, yet persistent, user models based on repeated user visits. Cookies, issued when a web browser first visits a site, are typically employed to anonymously associate a website visit with a distinct user (web browser). However, users may reset cookies, making such association short-lived and noisy. In this paper we propose a solution to the cookie churn problem: a novel algorithm for grouping similar cookies into clusters that are more persistent than individual cookies. Such clustering could potentially allow more robust estimation of the number of unique visitors of the site over a certain long time period, and also better user modeling which is key to plenty of web applications such as advertising and recommender systems.",
+    "link": "https://doi.org/10.1145/2124295.2124308"
+  },
+  {
+    "title": "mTrust: discerning multi-faceted trust in a connected world.",
+    "authors": [
+      "Jiliang Tang",
+      "Huiji Gao",
+      "Huan Liu"
+    ],
+    "abstract": "Traditionally, research about trust assumes a single type of trust between users. However, trust, as a social concept, inherently has many facets indicating multiple and heterogeneous trust relationships between users. Due to the presence of a large trust network for an online user, it is necessary to discern multi-faceted trust as there are naturally experts of different types. Our study in product review sites reveals that people place trust differently to different people. Since the widely used adjacency matrix cannot capture multi-faceted trust relationships between users, we propose a novel approach by incorporating these relationships into traditional rating prediction algorithms to reliably estimate their strengths. Our work results in interesting findings such as heterogeneous pairs of reciprocal links. Experimental results on real-world data from Epinions and Ciao show that our work of discerning multi-faceted trust can be applied to improve the performance of tasks such as rating prediction, facet-sensitive ranking, and status theory.",
+    "link": "https://doi.org/10.1145/2124295.2124309"
+  },
+  {
+    "title": "Of hammers and nails: an empirical comparison of three paradigms for processing large graphs.",
+    "authors": [
+      "Marc Najork",
+      "Dennis Fetterly",
+      "Alan Halverson",
+      "Krishnaram Kenthapadi",
+      "Sreenivas Gollapudi"
+    ],
+    "abstract": "Many phenomena and artifacts such as road networks, social networks and the web can be modeled as large graphs and analyzed using graph algorithms. However, given the size of the underlying graphs, efficient implementation of basic operations such as connected component analysis, approximate shortest paths, and link-based ranking (e.g.PageRank) becomes challenging.",
+    "link": "https://doi.org/10.1145/2124295.2124310"
+  },
+  {
+    "title": "Pairwise cross-domain factor model for heterogeneous transfer ranking.",
+    "authors": [
+      "Bo Long",
+      "Yi Chang",
+      "Anlei Dong",
+      "Jianzhang He"
+    ],
+    "abstract": "Learning to rank arises in many information retrieval applications, ranging from Web search engine, online advertising to recommendation systems. Traditional ranking mainly focuses on one type of data source, and effective modeling relies on a sufficiently large number of labeled examples, which require expensive and time-consuming labeling process. However, in many real-world applications, ranking over multiple related heterogeneous domains becomes a common situation, where in some domains we may have a relatively large amount of training data while in some other domains we can only collect very little. Theretofore, how to leverage labeled information from related heterogeneous domain to improve ranking in a target domain has become a problem of great interests. In this paper, we propose a novel probabilistic model, pairwise cross-domain factor model, to address this problem. The proposed model learns latent factors(features) for multi-domain data in partially-overlapped heterogeneous feature spaces. It is capable of learning homogeneous feature correlation, heterogeneous feature correlation, and pairwise preference correlation for cross-domain knowledge transfer. We also derive two PCDF variations to address two important special cases. Under the PCDF model, we derive a stochastic gradient based algorithm, which facilitates distributed optimization and is flexible to adopt different loss functions and regularization functions to accommodate different data distributions. The extensive experiments on real world data sets demonstrate the effectiveness of the proposed model and algorithm.",
+    "link": "https://doi.org/10.1145/2124295.2124311"
+  },
+  {
+    "title": "Scalable inference in latent variable models.",
+    "authors": [
+      "Amr Ahmed",
+      "Mohamed Aly",
+      "Joseph Gonzalez",
+      "Shravan M. Narayanamurthy",
+      "Alexander J. Smola"
+    ],
+    "abstract": "Latent variable techniques are pivotal in tasks ranging from predicting user click patterns and targeting ads to organizing the news and managing user generated content. Latent variable techniques like topic modeling, clustering, and subspace estimation provide substantial insight into the latent structure of complex data with little or no external guidance making them ideal for reasoning about large-scale, rapidly evolving datasets. Unfortunately, due to the data dependencies and global state introduced by latent variables and the iterative nature of latent variable inference, latent-variable techniques are often prohibitively expensive to apply to large-scale, streaming datasets.\n In this paper we present a scalable parallel framework for efficient inference in latent variable models over streaming web-scale data. Our framework addresses three key challenges: 1) synchronizing the global state which includes global latent variables (e.g., cluster centers and dictionaries); 2) efficiently storing and retrieving the large local state which includes the data-points and their corresponding latent variables (e.g., cluster membership); and 3) sequentially incorporating streaming data (e.g., the news). We address these challenges by introducing: 1) a novel delta-based aggregation system with a bandwidth-efficient communication protocol; 2) schedule-aware out-of-core storage; and 3) approximate forward sampling to rapidly incorporate new data. We demonstrate state-of-the-art performance of our framework by easily tackling datasets two orders of magnitude larger than those addressed by the current state-of-the-art. Furthermore, we provide an optimized and easily customizable open-source implementation of the framework1.",
+    "link": "https://doi.org/10.1145/2124295.2124312"
+  },
+  {
+    "title": "Learning recommender systems with adaptive regularization.",
+    "authors": [
+      "Steffen Rendle"
+    ],
+    "abstract": "Many factorization models like matrix or tensor factorization have been proposed for the important application of recommender systems. The success of such factorization models depends largely on the choice of good values for the regularization parameters. Without a careful selection they result in poor prediction quality as they either underfit or overfit the data. Regularization values are typically determined by an expensive search that requires learning the model parameters several times: once for each tuple of candidate values for the regularization parameters. In this paper, we present a new method that adapts the regularization automatically while training the model parameters. To achieve this, we optimize simultaneously for two criteria: (1) as usual the model parameters for the regularized objective and (2) the regularization of future parameter updates for the best predictive quality on a validation set. We develop this for the generic model class of Factorization Machines which subsumes a wide variety of factorization models. We show empirically, that the advantages of our adaptive regularization method compared to expensive hyperparameter search do not come to the price of worse predictive quality. In total with our method, learning regularization parameters is as easy as learning model parameters and thus there is no need for any time-consuming search of regularization values because they are found on-the-fly. This makes our method highly attractive for practical use.",
+    "link": "https://doi.org/10.1145/2124295.2124313"
+  },
+  {
+    "title": "Collaborative ranking.",
+    "authors": [
+      "Suhrid Balakrishnan",
+      "Sumit Chopra"
+    ],
+    "abstract": "Typical recommender systems use the root mean squared error (RMSE) between the predicted and actual ratings as the evaluation metric. We argue that RMSE is not an optimal choice for this task, especially when we will only recommend a few (top) items to any user. Instead, we propose using a ranking metric, namely normalized discounted cumulative gain (NDCG), as a better evaluation metric for this task. Borrowing ideas from the learning to rank community for web search, we propose novel models which approximately optimize NDCG for the recommendation task. Our models are essentially variations on matrix factorization models where we also additionally learn the features associated with the users and the items for the ranking task. Experimental results on a number of standard collaborative filtering data sets validate our claims. The results also show the accuracy and efficiency of our models and the benefits of learning features for ranking.",
+    "link": "https://doi.org/10.1145/2124295.2124314"
+  },
+  {
+    "title": "From chatter to headlines: harnessing the real-time web for personalized news recommendation.",
+    "authors": [
+      "Gianmarco De Francisci Morales",
+      "Aristides Gionis",
+      "Claudio Lucchese"
+    ],
+    "abstract": "We propose a new methodology for recommending interesting news to users by exploiting the information in their twitter persona. We model relevance between users and news articles using a mix of signals drawn from the news stream and from twitter: the profile of the social neighborhood of the users, the content of their own tweet stream, and topic popularity in the news and in the whole twitter-land.",
+    "link": "https://doi.org/10.1145/2124295.2124315"
+  },
+  {
+    "title": "ETF: extended tensor factorization model for personalizing prediction of review helpfulness.",
+    "authors": [
+      "Samaneh Moghaddam",
+      "Mohsen Jamali",
+      "Martin Ester"
+    ],
+    "abstract": "Online reviews are valuable sources of information for a variety of decision-making processes such as purchasing products. As the number of online reviews is growing rapidly, it becomes increasingly difficult for users to identify those that are helpful. This has motivated research into the problem of identifying high quality and helpful reviews automatically. The current methods assume that the helpfulness of a review is independent from the readers of that review. However, we argue that the quality of a review may not be the same for different users. For example, a professional and an amateur photographer may rate the helpfulness of a review very differently. In this paper, we introduce the problem of predicting a personalized review quality for recommendation of helpful reviews. To address this problem, we propose a series of increasingly sophisticated probabilistic graphical models, based on Matrix Factorization and Tensor Factorization. We evaluate the proposed models using a database of 1.5 million reviews and more than 13 million quality ratings obtained from Epinions.com. The experiments demonstrate that the proposed latent factor models outperform the state-of-the art approaches using textual and social features. Finally, our experiments confirm that the helpfulness of a review is indeed not the same for all users and that there are some latent factors that affect a user's evaluation of the review quality.",
+    "link": "https://doi.org/10.1145/2124295.2124316"
+  },
+  {
+    "title": "Multi-relational matrix factorization using bayesian personalized ranking for social network data.",
+    "authors": [
+      "Artus Krohn-Grimberghe",
+      "Lucas Drumond",
+      "Christoph Freudenthaler",
+      "Lars Schmidt-Thieme"
+    ],
+    "abstract": "A key element of the social networks on the internet such as Facebook and Flickr is that they encourage users to create connections between themselves, other users and objects.",
+    "link": "https://doi.org/10.1145/2124295.2124317"
+  },
+  {
+    "title": "Comment spam detection by sequence mining.",
+    "authors": [
+      "Ravi Kant",
+      "Srinivasan H. Sengamedu",
+      "Krishnan S. Kumar"
+    ],
+    "abstract": "Comments are supported by several web sites to increase user participation. Users can usually comment on a variety of media types - photos, videos, news articles, blogs, etc. Comment spam is one of the biggest challenges facing this feature. The traditional approach to combat spam is to train classifiers using various machine learning techniques. Since the commonly used classifiers work on the entire comment text, it is easy to mislead them by embedding spam content in good content.",
+    "link": "https://doi.org/10.1145/2124295.2124318"
+  },
+  {
+    "title": "Mining slang and urban opinion words and phrases from cQA services: an optimization approach.",
+    "authors": [
+      "Hadi Amiri",
+      "Tat-Seng Chua"
+    ],
+    "abstract": "Current opinion lexicons contain most of the common opinion words, but they miss slang and so-called urban opinion words and phrases (e.g.delish, cozy, yummy, nerdy, andyuck). These subjectivity clues are frequently used in community questions and are useful for opinion question analysis. This paper introduces a principled approach to constructing an opinion lexicon for community-based question answering (cQA) services. We formulate the opinion lexicon induction as a semi-supervised learning task in the graph context. Our method makes use of existing opinion words to extract new opinion entities (slang and urban words/phrases) from community questions. It then models the opinion entities in a graph context to learn the polarity of the new opinion entities based on the graph connectivity information. In contrast to previous approaches, our method not only learns such polarities from the labeled data but also from the unlabeled data and is more feasible in the web context where the dictionary-based relations (such assynonym, antonym, orhyponym) between most words are not available for constructing a high quality graph. The experiments show that our approach is effective both in terms of the quality of the discovered new opinion entities as well as its ability in inferring their polarity. Furthermore, since the value of opinion lexicons lies in their usefulness in applications, we show the utility of the constructed lexicon in the sentiment classification task.",
+    "link": "https://doi.org/10.1145/2124295.2124319"
+  },
+  {
+    "title": "What's in a hashtag?: content based prediction of the spread of ideas in microblogging communities.",
+    "authors": [
+      "Oren Tsur",
+      "Ari Rappoport"
+    ],
+    "abstract": "Current social media research mainly focuses on temporal trends of the information flow and on the topology of the social graph that facilitates the propagation of information. In this paper we study the effect of the content of the idea on the information propagation. We present an efficient hybrid approach based on a linear regression for predicting the spread of an idea in a given time frame. We show that a combination of content features with temporal and topological features minimizes prediction error.",
+    "link": "https://doi.org/10.1145/2124295.2124320"
+  },
+  {
+    "title": "WebSets: extracting sets of entities from the web using unsupervised information extraction.",
+    "authors": [
+      "Bhavana Bharat Dalvi",
+      "William W. Cohen",
+      "Jamie Callan"
+    ],
+    "abstract": "We describe a open-domain information extraction method for extracting concept-instance pairs from an HTML corpus. Most earlier approaches to this problem rely on combining clusters of distributionally similar terms and concept-instance pairs obtained with Hearst patterns. In contrast, our method relies on a novel approach for clustering terms found in HTML tables, and then assigning concept names to these clusters using Hearst patterns. The method can be efficiently applied to a large corpus, and experimental results on several datasets show that our method can accurately extract large numbers of concept-instance pairs.",
+    "link": "https://doi.org/10.1145/2124295.2124327"
+  },
+  {
+    "title": "Selecting actions for resource-bounded information extraction using reinforcement learning.",
+    "authors": [
+      "Pallika H. Kanani",
+      "Andrew McCallum"
+    ],
+    "abstract": "Given a database with missing or uncertain content, our goal is to correct and fill the database by extracting specific information from a large corpus such as the Web, and to do so under resource limitations. We formulate the information gathering task as a series of choices among alternative, resource-consuming actions and use reinforcement learning to select the best action at each time step. We use temporal difference q-learning method to train the function that selects these actions, and compare it to an online, error-driven algorithm called SampleRank. We present a system that finds information such as email, job title and department affiliation for the faculty at our university, and show that the learning-based approach accomplishes this task efficiently under a limited action budget. Our evaluations show that we can obtain 92.4% of the final F1, by only using 14.3% of all possible actions.",
+    "link": "https://doi.org/10.1145/2124295.2124328"
+  },
+  {
+    "title": "Online selection of diverse results.",
+    "authors": [
+      "Debmalya Panigrahi",
+      "Atish Das Sarma",
+      "Gagan Aggarwal",
+      "Andrew Tomkins"
+    ],
+    "abstract": "The phenomenal growth in the volume of easily accessible information via various web-based services has made it essential for service providers to provide users with personalized representative summaries of such information. Further, online commercial services including social networking and micro-blogging websites, e-commerce portals, leisure and entertainment websites, etc. recommend interesting content to users that is simultaneously diverse on many different axes such as topic, geographic specificity, etc. The key algorithmic question in all these applications is the generation of a succinct, representative, and relevant summary from a large stream of data coming from a variety of sources. In this paper, we formally model this optimization problem, identify its key structural characteristics, and use these observations to design an extremely scalable and efficient algorithm. We analyze the algorithm using theoretical techniques to show that it always produces a nearly optimal solution. In addition, we perform large-scale experiments on both real-world and synthetically generated datasets, which confirm that our algorithm performs even better than its analytical guarantees in practice, and also outperforms other candidate algorithms for the problem by a wide margin.",
+    "link": "https://doi.org/10.1145/2124295.2124329"
+  },
+  {
+    "title": "Overlapping clusters for distributed computation.",
+    "authors": [
+      "Reid Andersen",
+      "David F. Gleich",
+      "Vahab S. Mirrokni"
+    ],
+    "abstract": "Most graph decomposition procedures seek to partition a graph into disjoint sets of vertices. Motivated by applications of clustering in distributed computation, we describe a graph decomposition algorithm for the paradigm where the partitions intersect. This algorithm covers the vertex set with a collection of overlapping clusters. Each vertex in the graph is well-contained within some cluster in the collection. We then describe a framework for distributed computation across a collection of overlapping clusters and describe how this framework can be used in various algorithms based on the graph diffusion process. In particular, we focus on two illustrative examples: (i) the simulation of a randomly walking particle and (ii) the solution of a linear system, e.g. PageRank. Our simulation results for these two cases show a significant reduction in swapping between clusters in a random walk, a significant decrease in communication volume during a linear system solve in a geometric mesh, and some ability to reduce the communication volume during a linear system solve in an information network.",
+    "link": "https://doi.org/10.1145/2124295.2124330"
+  },
+  {
+    "title": "No search result left behind: branching behavior with browser tabs.",
+    "authors": [
+      "Jeff Huang",
+      "Thomas Lin",
+      "Ryen W. White"
+    ],
+    "abstract": "Today's Web browsers allow users to open links in new windows or tabs. This action, which we call 'branching', is sometimes performed on search results when the user plans to eventually visit multiple results. We detect branching behavior on a large commercial search engine with a client-side script on the results page. Two-fifths of all users spawned new tabs on search results in the timeframe of our study; branching usage varied with different query types and vertical. Both branching and backtracking are viable methods for visiting multiple search results. To understand user search strategies, we treat multiple result clicks following a query as ordered events to understand user search strategies. Users branching in a query are more likely to click search results from top to bottom, while users who backtrack are less likely to do so; this is especially true for queries involving more than two clicks. These findings inform an experiment in which we take a popular click model and modify it to account for the differing user behavior when branching. By understanding that users continue examining search results before viewing a branched result, we can improve the click model for branching queries.",
+    "link": "https://doi.org/10.1145/2124295.2124322"
+  },
+  {
+    "title": "Characterizing web content, user interests, and search behavior by reading level and topic.",
+    "authors": [
+      "Jin Young Kim",
+      "Kevyn Collins-Thompson",
+      "Paul N. Bennett",
+      "Susan T. Dumais"
+    ],
+    "abstract": "A user's expertise or ability to understand a document on a given topic is an important aspect of that document's relevance. However, this aspect has not been well-explored in information retrieval systems, especially those at Web scale where the great diversity of content, users, and tasks presents an especially challenging search problem. To help improve our modeling and understanding of this diversity, we apply automatic text classifiers, based on reading difficulty and topic prediction, to estimate a novel type of profile for important entities in Web search -- users, websites, and queries. These profiles capture topic and reading level distributions, which we then use in conjunction with search log data to characterize and compare different entities.",
+    "link": "https://doi.org/10.1145/2124295.2124323"
+  },
+  {
+    "title": "Topical clustering of search results.",
+    "authors": [
+      "Ugo Scaiella",
+      "Paolo Ferragina",
+      "Andrea Marino",
+      "Massimiliano Ciaramita"
+    ],
+    "abstract": "Search results clustering (SRC) is a challenging algorithmic problem that requires grouping together the results returned by one or more search engines in topically coherent clusters, and labeling the clusters with meaningful phrases describing the topics of the results included in them.",
+    "link": "https://doi.org/10.1145/2124295.2124324"
+  },
+  {
+    "title": "To each his own: personalized content selection based on text comprehensibility.",
+    "authors": [
+      "Chenhao Tan",
+      "Evgeniy Gabrilovich",
+      "Bo Pang"
+    ],
+    "abstract": "Imagine a physician and a patient doing a search on antibiotic resistance. Or a chess amateur and a grandmaster conducting a search on Alekhine's Defence. Although the topic is the same, arguably the two users in each case will satisfy their information needs with very different texts. Yet today search engines mostly adopt the one-size-fits-all solution, where personalization is restricted to topical preference. We found that users do not uniformly prefer simple texts, and that the text comprehensibility level should match the user's level of preparedness. Consequently, we propose to model the comprehensibility of texts as well as the users' reading proficiency in order to better explain how different users choose content for further exploration. We also model topic-specific reading proficiency, which allows us to better explain why a physician might choose to read sophisticated medical articles yet simple descriptions of SLR cameras. We explore different ways to build user profiles, and use collaborative filtering techniques to overcome data sparsity. We conducted experiments on large-scale datasets from a major Web search engine and a community question answering forum. Our findings confirm that explicitly modeling text comprehensibility can significantly improve content ranking (search results or answers, respectively).",
+    "link": "https://doi.org/10.1145/2124295.2124325"
+  },
+  {
+    "title": "Probabilistic models for personalizing web search.",
+    "authors": [
+      "David A. Sontag",
+      "Kevyn Collins-Thompson",
+      "Paul N. Bennett",
+      "Ryen W. White",
+      "Susan T. Dumais",
+      "Bodo Billerbeck"
+    ],
+    "abstract": "We present a new approach for personalizing Web search results to a specific user. Ranking functions for Web search engines are typically trained by machine learning algorithms using either direct human relevance judgments or indirect judgments obtained from click-through data from millions of users. The rankings are thus optimized to this generic population of users, not to any specific user. We propose a generative model of relevance which can be used to infer the relevance of a document to a specific user for a search query. The user-specific parameters of this generative model constitute a compact user profile. We show how to learn these profiles from a user's long-term search history. Our algorithm for computing the personalized ranking is simple and has little computational overhead. We evaluate our personalization approach using historical search data from thousands of users of a major Web search engine. Our findings demonstrate gains in retrieval performance for queries with high ambiguity, with particularly large improvements for acronym queries.",
+    "link": "https://doi.org/10.1145/2124295.2124348"
+  },
+  {
+    "title": "Effective query formulation with multiple information sources.",
+    "authors": [
+      "Michael Bendersky",
+      "Donald Metzler",
+      "W. Bruce Croft"
+    ],
+    "abstract": "Most standard information retrieval models use a single source of information (e.g., the retrieval corpus) for query formulation tasks such as term and phrase weighting and query expansion. In contrast, in this paper, we present a unified framework that automatically optimizes the combination of information sources used for effective query formulation. The proposed framework produces fully weighted and expanded queries that are both more effective and more compact than those produced by the current state-of-the-art query expansion and weighting methods. We conduct an empirical evaluation of our framework for both newswire and web corpora. In all cases, our combination of multiple information sources for query formulation is found to be more effective than using any single source. The proposed query formulations are especially advantageous for large scale web corpora, where they also reduce the number of terms required for effective query expansion, and improve the diversity of the retrieved results.",
+    "link": "https://doi.org/10.1145/2124295.2124349"
+  },
+  {
+    "title": "Learning to rank with multi-aspect relevance for vertical search.",
+    "authors": [
+      "Changsung Kang",
+      "Xuanhui Wang",
+      "Yi Chang",
+      "Belle L. Tseng"
+    ],
+    "abstract": "Many vertical search tasks such as local search focus on specific domains. The meaning of relevance in these verticals is domain-specific and usually consists of multiple well-defined aspects (e.g., text matching and distance in local search). Thus the overall relevance between a query and a document is a tradeoff between multiple relevance aspects. Such a tradeoff can vary for different types of queries or in different contexts. In this paper, we explore these vertical-specific aspects in the learning to rank setting. We propose a novel formulation in which the relevance between a query and a document is assessed with respect to each aspect, forming the multi-aspect relevance. In order to compute a ranking function, we study two types of learning-based approaches to estimate the tradeoff between these relevance aspects: a label aggregation method and a model aggregation method. Since there are only a few aspects, a minimal amount of training data is needed to learn the tradeoff. We conduct both offline and online test experiments on a local search engine and the experimental results show that our proposed multi-aspect relevance formulation is very promising. The two types of aggregation methods perform more effectively than a set of baseline methods including a conventional learning to rank method.",
+    "link": "https://doi.org/10.1145/2124295.2124350"
+  },
+  {
+    "title": "Beyond ten blue links: enabling user click modeling in federated web search.",
+    "authors": [
+      "Danqi Chen",
+      "Weizhu Chen",
+      "Haixun Wang",
+      "Zheng Chen",
+      "Qiang Yang"
+    ],
+    "abstract": "Click models have been positioned as an effective approach to interpret user click behavior in search engines. Existing click models mostly focus on traditional Web search that considers only ten homogeneous Web HTML documents that appear on the first search-result page. However, in modern commercial search engines, more and more Web search results are federated from multiple sources and contain non-HTML results returned by other heterogeneous vertical engines, such as video or image search engines. In this paper, we study user click behavior in federated search. We observed that user click behavior in federated search is highly different from that in traditional Web search, making it difficult to interpret using existing click models. In response, we propose a novel federated click model (FCM) to interpret user click behavior in federated search. In particular, we take into considerations two new biases in FCM. The first comes from the observation that users tend to be attracted by vertical results and their visual attention on them may increase the examination probability of other nearby web results. The other illustrates that user click behavior on vertical results may lead to more clues of search relevance due to their presentation style in federated search. With these biases and an effective model to correct them, FCM is more accurate in characterizing user click behavior in federated search. Our extensive experimental results show that FCM can outperform other click models in interpreting user click behavior in federated search and achieve significant improvements in terms of both perplexity and log-likelihood.",
+    "link": "https://doi.org/10.1145/2124295.2124351"
+  },
+  {
+    "title": "Sponsored search auctions with conflict constraints.",
+    "authors": [
+      "Panagiotis Papadimitriou",
+      "Hector Garcia-Molina"
+    ],
+    "abstract": "In sponsored search auctions advertisers compete for ad slots in the search engine results page, by bidding on keywords of interest. To improve advertiser expressiveness, we augment the bidding process withconflictconstraints. With such constraints, advertisers can condition their bids on the non-appearance of certain undesired ads on the results page. We study the complexity of theallocationproblem in these augmented SSA and we introduce an algorithm that can efficiently allocate the ad slots to advertisers. We evaluate the algorithm run time in simulated conflict scenarios and we study the implications of the conflict constraints on search engine revenue. Our results show that the allocation problem can be solved within few tens of milliseconds and that the adoption of conflict constraints can potentially increase search engine revenue.",
+    "link": "https://doi.org/10.1145/2124295.2124332"
+  },
+  {
+    "title": "Post-click conversion modeling and analysis for non-guaranteed delivery display advertising.",
+    "authors": [
+      "Rómer Rosales",
+      "Haibin Cheng",
+      "Eren Manavoglu"
+    ],
+    "abstract": "In on-line search and display advertising, the click-trough rate (CTR) has been traditionally a key measure of ad/campaign effectiveness. More recently, the market has gained interest in more direct measures of profitability, one early alternative is the conversion rate (CVR). CVRs measure the proportion of certain users who take a predefined, desirable action, such as a purchase, registration, download, etc.; as compared to simply page browsing. We provide a detailed analysis of conversion rates in the context of non-guaranteed delivery targeted advertising. In particular we focus on the post-click conversion (PCC) problem or the analysis of conversions after a user click on a referring ad. The key elements we study are the probability of a conversion given a click in a user/page context, P(conversion | click, context). We provide various fundamental properties of this process based on contextual information, formalize the problem of predicting PCC, and propose an approach for measuring attribute relevance when the underlying attribute distribution is non-stationary. We provide experimental analyses based on logged events from a large-scale advertising platform.",
+    "link": "https://doi.org/10.1145/2124295.2124333"
+  },
+  {
+    "title": "Incorporating revisiting behaviors into click models.",
+    "authors": [
+      "Danqing Xu",
+      "Yiqun Liu",
+      "Min Zhang",
+      "Shaoping Ma",
+      "Liyun Ru"
+    ],
+    "abstract": "Click-through behaviors are treated as invaluable sources of user feedback and they have been leveraged in several commercial search engines in recent years. However, estimating unbiased relevance is always a challenging task because of position bias. To solve this problem, many researchers have proposed a variety of assumptions to model click-through behaviors. Most of these models share a common examination hypothesis, which is that users examine search results from the top to the bottom. Nevertheless, this model cannot draw a complete picture of information-seeking behaviors. Many eye-tracking studies find that user interactions are not sequential but contain revisiting patterns. If a user clicks on a higher ranked document after having clicked on a lower-ranked one, we call this scenario a revisiting pattern, and we believe that the revisiting patterns are important signals regarding a user's click preferences. This paper incorporates revisiting behaviors into click models and introduces a novel click model named Temporal Hidden Click Model (THCM). This model dynamically models users' click behaviors with a temporal order. In our experiment, we collect over 115 million query sessions from a widely-used commercial search engine and then conduct a comparative analysis between our model and several state-of-the-art click models. The experimental results show that the THCM model achieves a significant improvement in the Normalized Discounted Cumulative Gain (NDCG), the click perplexity and click distributions metrics.",
+    "link": "https://doi.org/10.1145/2124295.2124334"
+  },
+  {
+    "title": "A noise-aware click model for web search.",
+    "authors": [
+      "Weizhu Chen",
+      "Dong Wang",
+      "Yuchen Zhang",
+      "Zheng Chen",
+      "Adish Singla",
+      "Qiang Yang"
+    ],
+    "abstract": "Recent advances in click model have established it as an attractive approach to infer document relevance. Most of these advances consider the user click/skip behavior as binary events but neglect the context in which a click happens. We show that real click behavior in industrial search engines is often noisy and not always a good indication of relevance. For a considerable percentage of clicks, users select what turn out to be irrelevant documents and these clicks should not be directly used as evidence for relevance inference. Thus in this paper, we put forward an observation that the relevance indication degree of a click is not a constant, but can be differentiated by user preferences and the context in which the user makes her click decision. In particular, to interpret the click behavior discriminatingly, we propose a Noise-aware Click Model (NCM) by characterizing the noise degree of a click, which indicates the quality of the click for inferring relevance. Specifically, the lower the click noise is, the more important the click is in its role for relevance inference. To verify the necessity of explicitly accounting for the uninformative noise in a user click, we conducted experiments on a billion-scale dataset. Extensive experimental results demonstrate that as compared with two state-of-the-art click models in Web Search, NCM can better interpret user click behavior and achieve significant improvements in terms of both perplexity and NDCG.",
+    "link": "https://doi.org/10.1145/2124295.2124335"
+  },
+  {
+    "title": "Personalized click model through collaborative filtering.",
+    "authors": [
+      "Si Shen",
+      "Botao Amber Hu",
+      "Weizhu Chen",
+      "Qiang Yang"
+    ],
+    "abstract": "Click modeling aims to interpret the users' search click data in order to predict their clicking behavior. Existing models can well characterize the position bias of documents and snippets in relation to users' mainstream click behavior. Yet, current advances depict users' search actions only in a general setting by implicitly assuming that all users act in the same way, regardless of the fact that anyone, motivated with some individual interest, is more likely to click on a link than others. It is in light of this that we put forward a novel personalized click model to describe the user-oriented click preferences, which applies and extends matrix / tensor factorization from the view of collaborative filtering to connect users, queries and documents together. Our model serves as a generalized personalization framework that can be incorporated to the previously proposed click models and, in many cases, to their future extensions. Despite the sparsity of search click data, our personalized model demonstrates its advantage over the best click models previously discussed in the Web-search literature, supported by our large-scale experiments on a real dataset. A delightful bonus is the model's ability to gain insights into queries and documents through latent feature vectors, and hence to handle rare and even new query-document pairs much better than previous click models.",
+    "link": "https://doi.org/10.1145/2124295.2124336"
+  },
+  {
+    "title": "Fair and balanced: learning to present news stories.",
+    "authors": [
+      "Amr Ahmed",
+      "Choon Hui Teo",
+      "S. V. N. Vishwanathan",
+      "Alexander J. Smola"
+    ],
+    "abstract": "Relevance, diversity and personalization are key issues when presenting content which is apt to pique a user's interest. This is particularly true when presenting an engaging set of news stories. In this paper we propose an efficient algorithm for selecting a small subset of relevant articles from a streaming news corpus. It offers three key pieces of improvement over past work: 1) It is based on a detailed model of a user's viewing behavior which does not require explicit feedback. 2) We use the notion of submodularity to estimate the propensity of interacting with content. This improves over the classical context independent relevance ranking algorithms. Unlike existing methods, we learn the submodular function from the data. 3) We present an efficient online algorithm which can be adapted for personalization, story adaptation, and factorization models. Experiments show that our system yields a significant improvement over a retrieval system deployed in production.",
+    "link": "https://doi.org/10.1145/2124295.2124337"
+  },
+  {
+    "title": "Extracting search-focused key n-grams for relevance ranking in web search.",
+    "authors": [
+      "Chen Wang",
+      "Keping Bi",
+      "Yunhua Hu",
+      "Hang Li",
+      "Guihong Cao"
+    ],
+    "abstract": "In web search, relevance ranking of popular pages is relatively easy, because of the inclusion of strong signals such as anchor text and search log data. In contrast, with less popular pages, relevance ranking becomes very challenging due to a lack of information. In this paper the former is referred to as head pages, and the latter tail pages. We address the challenge by learning a model that can extract search-focused key n-grams from web pages, and using the key n-grams for searches of the pages, particularly, the tail pages. To the best of our knowledge, this problem has not been previously studied. Our approach has four characteristics. First, key n-grams are search-focused in the sense that they are defined as those which can compose \"good queries\" for searching the page. Second, key n-grams are learned in a relative sense using learning to rank techniques. Third, key n-grams are learned using search log data, such that the characteristics of key n-grams in the search log data, particularly in the heads; can be applied to the other data, particularly to the tails. Fourth, the extracted key n-grams are used as features of the relevance ranking model also trained with learning to rank techniques. Experiments validate the effectiveness of the proposed approach with large-scale web search datasets. The results show that our approach can significantly improve relevance ranking performance on both heads and tails; and particularly tails, compared with baseline approaches. Characteristics of our approach have also been fully investigated through comprehensive experiments.",
+    "link": "https://doi.org/10.1145/2124295.2124338"
+  },
+  {
+    "title": "Query suggestion by constructing term-transition graphs.",
+    "authors": [
+      "Yang Song",
+      "Dengyong Zhou",
+      "Li-wei He"
+    ],
+    "abstract": "Query suggestion is an interactive approach for search engines to better understand users information need. In this paper, we propose a novel query suggestion framework which leverages user re-query feedbacks from search engine logs. Specifically, we mined user query reformulation activities where the user only modifies part of the query by (1) adding terms after the query, (2) deleting terms within the query, or (3) modifying terms to new terms. We build a term-transition graph based on the mined data. Two models are proposed which address topic-level and term-level query suggestions, respectively. In the first topic-based unsupervised Pagerank model, we perform random walk on each of the topic-based term-transition graph and calculate the Pagerank for each term within a topic. Given a new query, we suggest relevant queries based on its topic distribution and term-transition probability within each topic. Our second model resembles the supervised learning-to-rank (LTR) framework, in which term modifications are treated asdocumentsso that each query reformulation is treated as a training instance. A rich set of features are constructed for each (query, document) pair from Pagerank, Wikipedia, N-gram, ODP and so on. This supervised model is capable of suggesting new queries on a term level which addresses the limitation of previous methods. Experiments are conducted on a large data set from a commercial search engine. By comparing the with state-of-the-art query suggestion methods [4, 2], our proposals exhibit significant performance increase for all categories of queries.",
+    "link": "https://doi.org/10.1145/2124295.2124339"
+  },
+  {
+    "title": "Language models for keyword search over data graphs.",
+    "authors": [
+      "Yosi Mass",
+      "Yehoshua Sagiv"
+    ],
+    "abstract": "In keyword search over data graphs, an answer is a non-redundant subtree that includes the given keywords. This paper focuses on improving the effectiveness of that type of search. A novel approach that combines language models with structural relevance is described. The proposed approach consists of three steps. First, language models are used to assign dynamic, query-dependent weights to the graph. Those weights complement static weights that are pre-assigned to the graph. Second, an existing algorithm returns candidate answers based on their weights. Third, the candidate answers are re-ranked by creating a language model for each one. The effectiveness of the proposed approach is verified on a benchmark of three datasets: IMDB, Wikipedia and Mondial. The proposed approach outperforms all existing systems on the three datasets, which is a testament to its robustness. It is also shown that the effectiveness can be further improved by augmenting keyword queries with very basic knowledge about the structure.",
+    "link": "https://doi.org/10.1145/2124295.2124340"
+  },
+  {
+    "title": "Large-scale analysis of individual and task differences in search result page examination strategies.",
+    "authors": [
+      "Georg Buscher",
+      "Ryen W. White",
+      "Susan T. Dumais",
+      "Jeff Huang"
+    ],
+    "abstract": "Understanding the impact of individual and task differences on search result page examination strategies is important in developing improved search engines. Characterizing these effects using query and click data alone is common but insufficient since they provide an incomplete picture of result examination behavior. Cursor- or gaze-tracking studies reveal richer interaction patterns but are often done in small-scale laboratory settings. In this paper we leverage large-scale rich behavioral log data in a naturalistic setting. We examine queries, clicks, cursor movements, scrolling, and text highlighting for millions of queries on the Bing commercial search engine to better understand the impact of user, task, and user-task interactions on user behavior on search result pages (SERPs). By clustering users based on cursor features, we identify individual, task, and user-task differences in how users examine results which are similar to those observed in small-scale studies. Our findings have implications for developing search support for behaviorally-similar searcher cohorts, modeling search behavior, and designing search systems that leverage implicit feedback.",
+    "link": "https://doi.org/10.1145/2124295.2124341"
+  },
+  {
+    "title": "Sequence clustering and labeling for unsupervised query intent discovery.",
+    "authors": [
+      "Jackie Chi Kit Cheung",
+      "Xiao Li"
+    ],
+    "abstract": "One popular form of semantic search observed in several modern search engines is to recognize query patterns that trigger instant answers or domain-specific search, producing semantically enriched search results. This often requires understanding the query intent in addition to the meaning of the query terms in order to access structured data sources. A major challenge in intent understanding is to construct a domain-dependent schema and to annotate search queries based on such a schema, a process that to date has required much manual annotation effort. We present an unsupervised method for clustering queries with similar intent and for producing a pattern consisting of a sequence of semantic concepts and/or lexical items for each intent. Furthermore, we leverage the discovered intent patterns to automatically annotate a large number of queries beyond those used in clustering. We evaluated our method on 10 selected domains, discovering over 1400 intent patterns and automatically annotating 125K (and potentially many more) queries. We found that over 90% of patterns and 80% of instance annotations tested are judged to be correct by a majority of annotators.",
+    "link": "https://doi.org/10.1145/2124295.2124342"
+  },
+  {
+    "title": "IR system evaluation using nugget-based test collections.",
+    "authors": [
+      "Virgiliu Pavlu",
+      "Shahzad Rajput",
+      "Peter B. Golbus",
+      "Javed A. Aslam"
+    ],
+    "abstract": "The development of information retrieval systems such as search engines relies on good test collections, including assessments of retrieved content. The widely employed Cranfield paradigm dictates that the information relevant to a topic be encoded at the level of documents, therefore requiring effectively complete document relevance assessments. As this is no longer practical for modern corpora, numerous problems arise, including scalability, reusability, and applicability. We propose a new method for relevance assessment based on relevant information, not relevant documents. Once the relevant 'nuggets' are collected, our matching method can assess any document for relevance with high accuracy, and so any retrieved list of documents can be assessed for performance. In this paper we analyze the performance of the matching function by looking at specific cases and by comparing with other methods. We then show how these inferred relevance assessments can be used to perform IR system evaluation, and we discuss in particular reusability and scalability. Our main contribution is a methodology for producing test collections that are highly accurate, more complete, scalable, reusable, and can be generated with similar amounts of effort as existing methods, with great potential for future applications.",
+    "link": "https://doi.org/10.1145/2124295.2124343"
+  },
+  {
+    "title": "Tapping into knowledge base for concept feedback: leveraging conceptnet to improve search results for difficult queries.",
+    "authors": [
+      "Alexander Kotov",
+      "ChengXiang Zhai"
+    ],
+    "abstract": "Query expansion is an important and commonly used technique for improving Web search results. Existing methods for query expansion have mostly relied on global or local analysis of document collection, click-through data, or simple ontologies such as WordNet. In this paper, we present the results of a systematic study of the methods leveraging the ConceptNet knowledge base, an emerging new Web resource, for query expansion. Specifically, we focus on the methods leveraging ConceptNet to improve the search results for poorly performing (or difficult) queries. Unlike other lexico-semantic resources, such as WordNet and Wikipedia, which have been extensively studied in the past, ConceptNet features a graph-based representation model of commonsense knowledge, in which the terms are conceptually related through rich relational ontology. Such representation structure enables complex, multi-step inferences between the concepts, which can be applied to query expansion. We first demonstrate through simulation experiments that expanding queries with the related concepts from ConceptNet has great potential for improving the search results for difficult queries. We then propose and study several supervised and unsupervised methods for selecting the concepts from ConceptNet for automatic query expansion. The experimental results on multiple data sets indicate that the proposed methods can effectively leverage ConceptNet to improve the retrieval performance of difficult queries both when used in isolation as well as in combination with pseudo-relevance feedback.",
+    "link": "https://doi.org/10.1145/2124295.2124344"
+  },
+  {
+    "title": "Domain bias in web search.",
+    "authors": [
+      "Samuel Ieong",
+      "Nina Mishra",
+      "Eldar Sadikov",
+      "Li Zhang"
+    ],
+    "abstract": "This paper uncovers a new phenomenon in web search that we call domain bias --- a user's propensity to believe that a page is more relevant just because it comes from a particular domain. We provide evidence of the existence of domain bias in click activity as well as in human judgments via a comprehensive collection of experiments. We begin by studying the difference between domains that a search engine surfaces and that users click. Surprisingly, we find that despite changes in the overall distribution of surfaced domains, there has not been a comparable shift in the distribution of clicked domains. Users seem to have learned the landscape of the internet and their click behavior has thus become more predictable over time. Next, we run a blind domain test, akin to a Pepsi/Coke taste test, to determine whether domains can shift a user's opinion of which page is more relevant. We find that domains can actually flip a user's preference about 25% of the time. Finally, we demonstrate the existence of systematic domain preferences, even after factoring out confounding issues such as position bias and relevance, two factors that have been used extensively in past work to explain user behavior. The existence of domain bias has numerous consequences including, for example, the importance of discounting click activity from reputable domains.",
+    "link": "https://doi.org/10.1145/2124295.2124345"
+  },
+  {
+    "title": "Optimized top-k processing with global page scores on block-max indexes.",
+    "authors": [
+      "Dongdong Shan",
+      "Shuai Ding",
+      "Jing He",
+      "Hongfei Yan",
+      "Xiaoming Li"
+    ],
+    "abstract": "Large web search engines are facing formidable performance challenges because they have to process thousands of queries per second on tens of billions of documents, within interactive response time. Among many others, Top-k query processing (also called early termination or dynamic pruning) is an important class of optimization techniques that can improve the search efficiency and achieve faster query processing by avoiding the scoring of documents that are unlikely to be in the top results. One recent technique is using Block-Max index. In the Block-Max index, the posting lists are organized as blocks and the maximum score for each block is stored to improve the query efficiency. Although query processing speedup is achieved with Block-Max index, the ranking function for the Top-k results is the term-based approach. It is well known that documents' static scores are also important for a good ranking function. In this paper, we show that the performance of the state-of-the-art algorithms with the Block-Max index is degraded when the static score is added in the ranking function. Then we study efficient techniques for Top-k query processing in the case where a page's static score is given, such as PageRank, in addition to the term-based approach. In particular, we propose a set of new algorithms based on the WAND and MaxScore with Block-Max index using local score, which outperform the existing ones. Then we propose new techniques to estimate a better score upper bound for each block. We also study the search efficiency on different index structures where the document identifiers are assigned by URL sorting or by static document scores. Experiments on TREC GOV2 and ClueWeb09B show that considerable performance gains are achieved.",
+    "link": "https://doi.org/10.1145/2124295.2124346"
+  },
+  {
+    "title": "Finding the right consumer: optimizing for conversion in display advertising campaigns.",
+    "authors": [
+      "Yandong Liu",
+      "Sandeep Pandey",
+      "Deepak Agarwal",
+      "Vanja Josifovski"
+    ],
+    "abstract": "The ultimate goal of advertisers areconversionsrepresenting desired user actions on the advertisers' websites in the form of purchases and product information request. In this paper we address the problem of finding the right audience for display campaigns by finding the users that are most likely to convert. This challenging problem is at the heart of display campaign optimization and has to deal with several issues such as very small percentage of converters in the general population, high-dimensional representation of the user profiles, large churning rate of users and advertisers. To overcome these difficulties, in our approach we use two sources of information: aseedset of users that have converted for a campaign in the past; and a description of the campaign based on the advertiser's website. We explore the importance of the information provided by each of these two sources in a principled manner and then combine them to propose models for predicting converters. In particular, we show how seed set can be used to capture the campaign-specific targeting constraints, while the campaign metadata allows to share targeting knowledge across campaigns. We give methods for learning these models and perform experiments on real-world advertising campaigns. Our findings show that the seed set and the campaign metadata are complimentary to each other and both sources provide valuable information for conversion optimization.",
+    "link": "https://doi.org/10.1145/2124295.2124353"
+  },
+  {
+    "title": "Fast top-k retrieval for model based recommendation.",
+    "authors": [
+      "Deepak Agarwal",
+      "Maxim Gurevich"
+    ],
+    "abstract": "A crucial task in many recommender problems like computational advertising, content optimization, and others is to retrieve a small set of items by scoring a large item inventory through some elaborate statistical/machine-learned model. This is challenging since the retrieval has to be fast (few milliseconds) to load the page quickly. Fast retrieval is well studied in the information retrieval (IR) literature, especially in the context of document retrieval for queries. When queries and documents have sparse representation and relevance is measured through cosine similarity (or some variant thereof), one could build highly efficient retrieval algorithms that scale gracefully to increasing item inventory. The key components exploited by such algorithms is sparse query-document representation and the special form of the relevance function. Many machine-learned models used in modern recommender problems do not satisfy these properties and since brute force evaluation is not an option with large item inventory, heuristics that filter out some items are often employed to reduce model computations at runtime.",
+    "link": "https://doi.org/10.1145/2124295.2124354"
+  },
+  {
+    "title": "Relational click prediction for sponsored search.",
+    "authors": [
+      "Chenyan Xiong",
+      "Taifeng Wang",
+      "Wenkui Ding",
+      "Yidong Shen",
+      "Tie-Yan Liu"
+    ],
+    "abstract": "This paper is concerned with the prediction of clicking an ad in sponsored search. The accurate prediction of user's click on an ad plays an important role in sponsored search, because it is widely used in both ranking and pricing of the ads. Previous work on click prediction usually takes a single ad as input, and ignores its relationship to the other ads shown in the same page. This independence assumption here, however, might not be valid in the real scenario. In this paper, we first perform an analysis on this issue by looking at the click-through rates (CTR) of the same ad, in the same position and for the same query, but surrounded by different ads. We found that in most cases the CTR varies largely, which suggests that the relationship between ads is really an important factor in predicting click probability. Furthermore, our investigation shows that the more similar the surrounding ads are to an ad, the lower the CTR of the ad is. Based on this observation, we design a continuous conditional random fields (CRF) based model for click prediction, which considers both the features of an ad and its similarity to the surrounding ads. We show that the model can be effectively learned using maximum likelihood estimation, and can also be efficiently inferred due to its closed form solution. Our experimental results on the click-through log from a commercial search engine show that the proposed model can predict clicks more accurately than previous independent models. To our best knowledge this is the first work that predicts ad clicks by considering the relationship between ads.",
+    "link": "https://doi.org/10.1145/2124295.2124355"
+  },
+  {
+    "title": "\"I loan because...\": understanding motivations for pro-social lending.",
+    "authors": [
+      "Yang Liu",
+      "Roy Chen",
+      "Yan Chen",
+      "Qiaozhu Mei",
+      "Suzy Salib"
+    ],
+    "abstract": "As a new paradigm of online communities, microfinance sites such as Kiva.org have attracted much public attention. To understand lender motivations on Kiva, we classify the lenders' self-stated motivations into ten categories with human coders and machine learning based classifiers. We employ text classifiers using lexical features, along with social features based on lender activity information on Kiva, to predict the categories of lender motivation statements. Although the task appears to be much more challenging than traditional topic-based categorization, our classifiers can achieve high precision in most categories. Using the results of this classification along with Kiva teams information, we predict lending activity from lender motivation and team affiliations. Finally, we make design recommendations regarding Kiva practices which might increase pro-social lending.",
+    "link": "https://doi.org/10.1145/2124295.2124356"
+  },
+  {
+    "title": "Correlating financial time series with micro-blogging activity.",
+    "authors": [
+      "Eduardo J. Ruiz",
+      "Vagelis Hristidis",
+      "Carlos Castillo",
+      "Aristides Gionis",
+      "Alejandro Jaimes"
+    ],
+    "abstract": "We study the problem of correlating micro-blogging activity with stock-market events, defined as changes in the price and traded volume of stocks. Specifically, we collect messages related to a number of companies, and we search for correlations between stock-market events for those companies and features extracted from the micro-blogging messages. The features we extract can be categorized in two groups. Features in the first group measure the overall activity in the micro-blogging platform, such as number of posts, number of re-posts, and so on. Features in the second group measure properties of an induced interaction graph, for instance, the number of connected components, statistics on the degree distribution, and other graph-based properties.\n We present detailed experimental results measuring the correlation of the stock market events with these features, using Twitter as a data source. Our results show that the most correlated features are the number of connected components and the number of nodes of the interaction graph. The correlation is stronger with the traded volume than with the price of the stock. However, by using a simulator we show that even relatively small correlations between price and micro-blogging features can be exploited to drive a stock trading strategy that outperforms other baseline strategies.",
+    "link": "https://doi.org/10.1145/2124295.2124358"
+  },
+  {
+    "title": "Harmony and dissonance: organizing the people's voices on political controversies.",
+    "authors": [
+      "Rawia Awadallah",
+      "Maya Ramanath",
+      "Gerhard Weikum"
+    ],
+    "abstract": "The wikileaks documents about the death of Osama Bin Laden and the debates about the economic crisis in Greece and other European countries are some of the controversial topics being played on the news everyday. Each of these topics has many different aspects, and there is no absolute, simple truth in answering questions such as: should the EU guarantee the financial stability of each member country, or should the countries themselves be solely responsible? To understand the landscape of opinions, it would be helpful to know which politician or other stakeholder takes which position - support or opposition - on these aspects of controversial topics.",
+    "link": "https://doi.org/10.1145/2124295.2124359"
+  },
+  {
+    "title": "Identifying content for planned events across social media sites.",
+    "authors": [
+      "Hila Becker",
+      "Dan Iter",
+      "Mor Naaman",
+      "Luis Gravano"
+    ],
+    "abstract": "User-contributed Web data contains rich and diverse information about a variety of events in the physical world, such as shows, festivals, conferences and more. This information ranges from known event features (e.g., title, time, location) posted on event aggregation platforms (e.g., Last.fm events, EventBrite, Facebook events) to discussions and reactions related to events shared on different social media sites (e.g., Twitter, YouTube, Flickr). In this paper, we focus on the challenge of automatically identifying user-contributed content for events that are planned and, therefore, known in advance, across different social media sites. We mine event aggregation platforms to extract event features, which are often noisy or missing. We use these features to develop query formulation strategies for retrieving content associated with an event on different social media sites. Further, we explore ways in which event content identified on one social media site can be used to retrieve additional relevant event content on other social media sites. We apply our strategies to a large set of user-contributed events, and analyze their effectiveness in retrieving relevant event content from Twitter, YouTube, and Flickr.",
+    "link": "https://doi.org/10.1145/2124295.2124360"
+  },
+  {
+    "title": "Daily deals: prediction, social diffusion, and reputational ramifications.",
+    "authors": [
+      "John W. Byers",
+      "Michael Mitzenmacher",
+      "Georgios Zervas"
+    ],
+    "abstract": "Daily deal sites have become the latest Internet sensation, providing discounted offers to customers for restaurants, ticketed events, services, and other items. We begin by undertaking a study of the economics of daily deals on the web, based on a dataset we compiled by monitoring Groupon and LivingSocial sales in 20 large cities over several months. We use this dataset to characterize deal purchases; glean insights about operational strategies of these firms; and evaluate customers' sensitivity to factors such as price, deal scheduling, and limited inventory. We then marry our daily deals dataset with additional datasets we compiled from Facebook and Yelp users to study the interplay between social networks and daily deal sites. First, by studying user activity on Facebook while a deal is running, we provide evidence that daily deal sites benefit from significant word-of-mouth effects during sales events, consistent with results predicted by cascade models. Second, we consider the effects of daily deals on the longer-term reputation of merchants, based on their Yelp reviews before and after they run a daily deal. Our analysis shows that while the number of reviews increases significantly due to daily deals, average rating scores from reviewers who mention daily deals are 10% lower than scores of their peers on average.",
+    "link": "https://doi.org/10.1145/2124295.2124361"
+  },
+  {
+    "title": "Effects of user similarity in social media.",
+    "authors": [
+      "Ashton Anderson",
+      "Daniel P. Huttenlocher",
+      "Jon M. Kleinberg",
+      "Jure Leskovec"
+    ],
+    "abstract": "There are many settings in which users of a social media application provide evaluations of one another. In a variety of domains, mechanisms for evaluation allow one user to say whether he or she trusts another user, or likes the content they produced, or wants to confer special levels of authority or responsibility on them. Earlier work has studied how therelative statusbetween two users - that is, their comparative levels of status in the group - affects the types of evaluations that one user gives to another.",
+    "link": "https://doi.org/10.1145/2124295.2124378"
+  },
+  {
+    "title": "How user behavior is related to social affinity.",
+    "authors": [
+      "Rina Panigrahy",
+      "Marc Najork",
+      "Yinglian Xie"
+    ],
+    "abstract": "Previous research has suggested that people who are in the same social circle exhibit similar behaviors and tastes. The rise of social networks gives us insights into the social circles of web users, and recommendation services (including search engines, advertisement engines, and collaborative filtering engines) provide a motivation to adapt recommendations to the interests of the audience. An important primitive for supporting these applications is the ability to quantify how connected two users are in a social network. The shortest-path distance between a pair of users is an obvious candidate measure. This paper introduces a new measure of \"affinity\" in social networks that takes into account not only the distance between two users, but also the number of edge-disjoint paths between them, i.e. the \"robustness\" of their connection. Our measure is based on a sketch-based approach, and affinity queries can be answered extremely efficiently (at the expense of a one-time offline sketch computation). We compare this affinity measure against the \"approximate shortest-path distance\", a sketch-based distance measure with similar efficiency characteristics. Our empirical study is based on a Hotmail email exchange graph combined with demographic information and Bing query history, and a Twitter mention-graph together with the text of the underlying tweets. We found that users who are close to each other - either in terms of distance or affinity - have a higher similarity in terms of demographics, queries, and tweets.",
+    "link": "https://doi.org/10.1145/2124295.2124379"
+  },
+  {
+    "title": "Finding your friends and following them to where you are.",
+    "authors": [
+      "Adam Sadilek",
+      "Henry A. Kautz",
+      "Jeffrey P. Bigham"
+    ],
+    "abstract": "Location plays an essential role in our lives, bridging our online and offline worlds. This paper explores the interplay between people's location, interactions, and their social ties within a large real-world dataset. We present and evaluate Flap, a system that solves two intimately related tasks: link and location prediction in online social networks. For link prediction, Flap infers social ties by considering patterns in friendship formation, the content of people's messages, and user location. We show that while each component is a weak predictor of friendship alone, combining them results in a strong model, accurately identifying the majority of friendships. For location prediction, Flap implements a scalable probabilistic model of human mobility, where we treat users with known GPS positions as noisy sensors of the location of their friends. We explore supervised and unsupervised learning scenarios, and focus on the efficiency of both learning and inference. We evaluate Flap on a large sample of highly active users from two distinct geographical areas and show that it (1) reconstructs the entire friendship graph with high accuracy even when no edges are given; and (2) infers people's fine-grained location, even when they keep their data private and we can only access the location of their friends. Our models significantly outperform current comparable approaches to either task.",
+    "link": "https://doi.org/10.1145/2124295.2124380"
+  },
+  {
+    "title": "How to win friends and influence people, truthfully: influence maximization mechanisms for social networks.",
+    "authors": [
+      "Yaron Singer"
+    ],
+    "abstract": "Throughout the past decade there has been extensive research on algorithmic and data mining techniques for solving the problem of influence maximization in social networks: if one can incentivize a subset of individuals to become early adopters of a new technology, which subset should be selected so that the word-of-mouth effect in the social network is maximized? Despite the progress in modeling and techniques, the incomplete information aspect of the problem has been largely overlooked. While data can often provide the network structure and influence patterns may be observable, the inherent cost individuals have to become early adopters is difficult to extract.",
+    "link": "https://doi.org/10.1145/2124295.2124381"
+  },
+  {
+    "title": "Inferring social ties across heterogenous networks.",
+    "authors": [
+      "Jie Tang",
+      "Tiancheng Lou",
+      "Jon M. Kleinberg"
+    ],
+    "abstract": "It is well known that different types of social ties have essentially different influence on people. However, users in online social networks rarely categorize their contacts into \"family\", \"colleagues\", or \"classmates\". While a bulk of research has focused on inferring particular types of relationships in a specific social network, few publications systematically study the generalization of the problem of inferring social ties over multiple heterogeneous networks. In this work, we develop a framework for classifying the type of social relationships by learning across heterogeneous networks. The framework incorporates social theories into a factor graph model, which effectively improves the accuracy of inferring the type of social relationships in a target network by borrowing knowledge from a different source network. Our empirical study on five different genres of networks validates the effectiveness of the proposed framework. For example, by leveraging information from a coauthor network with labeled advisor-advisee relationships, the proposed framework is able to obtain an F1-score of 90% (8-28% improvements over alternative methods) for inferring manager-subordinate relationships in an enterprise email network.",
+    "link": "https://doi.org/10.1145/2124295.2124382"
+  },
+  {
+    "title": "On clustering heterogeneous social media objects with outlier links.",
+    "authors": [
+      "Guo-Jun Qi",
+      "Charu C. Aggarwal",
+      "Thomas S. Huang"
+    ],
+    "abstract": "The clustering of social media objects provides intrinsic understanding of the similarity relationships between documents, images, and their contextual sources. Both content and link structure provide important cues for an effective clustering algorithm of the underlying objects. While link information provides useful hints for improving the clustering process, it also contains a significant amount of noisy information. Therefore, a robust clustering algorithm is required to reduce the impact of noisy links. In order to address the aforementioned problems, we propose heterogeneous random fields to model the structure and content of social media networks. We design a probability measure on the social media networks which output a configuration of clusters that are consistent with both content and link structure. Furthermore, noisy links can also be detected, and their impact on the clustering algorithm can be significantly reduced. We conduct experiments on a real social media network and show the advantage of the method over other state-of-the-art algorithms.",
+    "link": "https://doi.org/10.1145/2124295.2124363"
+  },
+  {
+    "title": "Adding semantics to microblog posts.",
+    "authors": [
+      "Edgar Meij",
+      "Wouter Weerkamp",
+      "Maarten de Rijke"
+    ],
+    "abstract": "Microblogs have become an important source of information for the purpose of marketing, intelligence, and reputation management. Streams of microblogs are of great value because of their direct and real-time nature. Determining what an individual microblog post is about, however, can be non-trivial because of creative language usage, the highly contextualized and informal nature of microblog posts, and the limited length of this form of communication. We propose a solution to the problem of determining what a microblog post is about through semantic linking: we add semantics to posts by automatically identifying concepts that are semantically related to it and generating links to the corresponding Wikipedia articles. The identified concepts can subsequently be used for, e.g., social media mining, thereby reducing the need for manual inspection and selection. Using a purpose-built test collection of tweets, we show that recently proposed approaches for semantic linking do not perform well, mainly due to the idiosyncratic nature of microblog posts. We propose a novel method based on machine learning with a set of innovative features and show that it is able to achieve significant improvements over all other methods, especially in terms of precision.",
+    "link": "https://doi.org/10.1145/2124295.2124364"
+  },
+  {
+    "title": "Exploring social influence via posterior effect of word-of-mouth recommendations.",
+    "authors": [
+      "Junming Huang",
+      "Xueqi Cheng",
+      "Huawei Shen",
+      "Tao Zhou",
+      "Xiaolong Jin"
+    ],
+    "abstract": "Word-of-mouth has proven an effective strategy for promoting products through social relations. Particularly, existing studies have convincingly demonstrated that word-of-mouth recommendations can boost users' prior expectation and hence encourage them to adopt a certain innovation, such as buying a book or watching a movie. However, less attention has been paid to studying the posterior effect of word-of-mouth recommendations, i.e., whether or not word-of-mouth recommendations can influence users' posterior evaluation on the products or services recommended to them, the answer to which is critical to estimating user satisfaction when proposing a word-of-mouth marketing strategy. In order to fill this gap, in this paper we empirically study the above issue and verify that word-of-mouth recommendations are strongly associated with users' posterior evaluation. Through elaborately designed statistical hypothesis tests we prove the causality that word-of-mouth recommendations directly prompt the posterior evaluation of receivers. Finally, we propose a method for investigating users' social influence, namely, their ability to affect followers' posterior evaluation via word-of-mouth recommendations, by examining the number of their followers and their sensitivity of discovering good items. The experimental results on real datasets show that our method can successfully identify 78% influential friends with strong social influence.",
+    "link": "https://doi.org/10.1145/2124295.2124365"
+  },
+  {
+    "title": "Find me opinion sources in blogosphere: a unified framework for opinionated blog feed retrieval.",
+    "authors": [
+      "Xueke Xu",
+      "Songbo Tan",
+      "Yue Liu",
+      "Xueqi Cheng",
+      "Zheng Lin",
+      "Jiafeng Guo"
+    ],
+    "abstract": "This paper aims to find blog feeds having a principal inclination towards making opinionated comments on the given topic, so that we can subscribe to them to track influential and interesting opinions in the blogosphere. One major challenge is assigning topic-related opinion scores to blog feeds, which is embodied in two aspects. Firstly, we should identify whether the blog feed has a principal on-topic opinionated inclination. This inclination should be collectively revealed by all posts of the feed. We should fully consider evidences from all the posts of the feed to identify salient information among many posts of the feed. Secondly, we should capture topic-related opinions in the blog feed while ignoring irrelevant opinions.\n In this paper, we propose a unified framework for opinionated blog feed retrieval, which combines topic relevance and opinion scores with a generative model. Furthermore, we propose a language modeling approach to estimating opinion scores that is seamlessly integrated into the framework, where two language models, Topic-specific Opinion Model (TOM) and Topic-biased Feed Model (TFM), work collectively to reflect whether the blog feed shows a principal on-topic opinionated inclination. To estimate TFM, we propose a topic-biased random walk to exploit both content and structural information to capture topic-biased salient information in the feed. As for TOM estimation, we propose to use a generative mixture model with prior guidance to effectively capture topic-specific opinion expressing language usage. The conducted experiments in the context of the TREC 2009-2010 Blog Track show the effectiveness of our proposed approaches.",
+    "link": "https://doi.org/10.1145/2124295.2124366"
+  },
+  {
+    "title": "Understanding cyclic trends in social choices.",
+    "authors": [
+      "Anish Das Sarma",
+      "Sreenivas Gollapudi",
+      "Rina Panigrahy",
+      "Li Zhang"
+    ],
+    "abstract": "Motivated by trends in popularity of products, we present a formal model for studying trends in our choice of products in terms of three parameters: (1) their innate utility; (2) individual boredom associated with repeated usage of an item; and (3) social influences associated with the preferences from other people. Different from previous work, in this paper we introduce boredom to explain the cyclic pattern in individual and social choices. We formally model boredom and show that a rational individual would make cyclic choices when considering the boredom factor. Furthermore, we extend the model to social choices by showing that a society that votes for a particular style or product can be viewed as a single individual cycling through different choices.",
+    "link": "https://doi.org/10.1145/2124295.2124367"
+  },
+  {
+    "title": "Maximizing product adoption in social networks.",
+    "authors": [
+      "Smriti Bhagat",
+      "Amit Goyal",
+      "Laks V. S. Lakshmanan"
+    ],
+    "abstract": "One of the key objectives of viral marketing is to identify a small set of users in a social network, who when convinced to adopt a product will influence others in the network leading to a large number of adoptions in an expected sense. The seminal work of Kempe et al. [13] approaches this as the problem of influence maximization. This and other previous papers tacitly assume that a user who is influenced (or, informed) about a product necessarily adopts the product and encourages her friends to adopt it. However, an influenced user may not adopt the product herself, and yet form an opinion based on the experiences of her friends, and share this opinion with others. Furthermore, a user who adopts the product may not like the product and hence not encourage her friends to adopt it to the same extent as another user who adopted and liked the product. This is independent of the extent to which those friends are influenced by her. Previous works do not account for these phenomena.",
+    "link": "https://doi.org/10.1145/2124295.2124368"
+  },
+  {
+    "title": "Answers, not links: extracting tips from yahoo! answers to address how-to web queries.",
+    "authors": [
+      "Ingmar Weber",
+      "Antti Ukkonen",
+      "Aristides Gionis"
+    ],
+    "abstract": "We investigate the problem of mining \"tips\" from Yahoo! Answers and displaying those tips in response to related web queries. Here, a \"tip\" is a short, concrete and self-contained bit of non-obvious advice such as \"To zest a lime if you don't have a zester : use a cheese grater.\"\n First, we estimate the volume of web queries with \"how-to\" intent, which could be potentially addressed by a tip. Second, we analyze how to detect such queries automatically without solely relying on literal \"how to *\" patterns. Third, we describe how to derive potential tips automatically from Yahoo! Answers, and we develop machine-learning techniques to remove low-quality tips. Finally, we discuss how to match web queries with \"how-to\" intent to tips. We evaluate both the quality of these direct displays as well as the size of the query volume that can be addressed by serving tips.",
+    "link": "https://doi.org/10.1145/2124295.2124369"
+  },
+  {
+    "title": "A straw shows which way the wind blows: ranking potentially popular items from early votes.",
+    "authors": [
+      "Peifeng Yin",
+      "Ping Luo",
+      "Min Wang",
+      "Wang-Chien Lee"
+    ],
+    "abstract": "Prediction of popular items in online content sharing systems has recently attracted a lot of attention due to the tremendous need of users and its commercial values. Different from previous works that make prediction by fitting a popularity growth model, we tackle this problem by exploiting the latentconformingandmaverickpersonalities of those who vote to assess the quality of on-line items. We argue that the former personality prompts a user to cast her vote conforming to the majority of the service community while on the contrary the later personality makes her vote different from the community. We thus propose aConformer-Maverick (CM)model to simulate the voting process and use it to rank top-kpotentially popular items based on the early votes they received. Through an extensive experimental evaluation, we validate our ideas and find that our proposed CM model achieves better performance than baseline solutions, especially for smallerk.",
+    "link": "https://doi.org/10.1145/2124295.2124370"
+  },
+  {
+    "title": "A large-scale sentiment analysis for Yahoo! answers.",
+    "authors": [
+      "Onur Kucuktunc",
+      "Berkant Barla Cambazoglu",
+      "Ingmar Weber",
+      "Hakan Ferhatosmanoglu"
+    ],
+    "abstract": "Sentiment extraction from online web documents has recently been an active research topic due to its potential use in commercial applications. By sentiment analysis, we refer to the problem of assigning a quantitative positive/negative mood to a short bit of text. Most studies in this area are limited to the identification of sentiments and do not investigate the interplay between sentiments and other factors. In this work, we use a sentiment extraction tool to investigate the influence of factors such as gender, age, education level, the topic at hand, or even the time of the day on sentiments in the context of a large online question answering site. We start our analysis by looking at direct correlations, e.g., we observe more positive sentiments on weekends, very neutral ones in the Science & Mathematics topic, a trend for younger people to express stronger sentiments, or people in military bases to ask the most neutral questions. We then extend this basic analysis by investigating how properties of the (asker, answerer) pair affect the sentiment present in the answer. Among other things, we observe a dependence on the pairing of some inferred attributes estimated by a user's ZIP code. We also show that the best answers differ in their sentiments from other answers, e.g., in the Business & Finance topic, best answers tend to have a more neutral sentiment than other answers. Finally, we report results for the task of predicting the attitude that a question will provoke in answers. We believe that understanding factors influencing the mood of users is not only interesting from a sociological point of view, but also has applications in advertising, recommendation, and search.",
+    "link": "https://doi.org/10.1145/2124295.2124371"
+  },
+  {
+    "title": "Tips, dones and todos: uncovering user profiles in foursquare.",
+    "authors": [
+      "Marisa A. Vasconcelos",
+      "Saulo M. R. Ricci",
+      "Jussara M. Almeida",
+      "Fabrício Benevenuto",
+      "Virgílio A. F. Almeida"
+    ],
+    "abstract": "Online Location Based Social Networks (LBSNs), which combine social network features with geographic information sharing, are becoming increasingly popular. One such application is Foursquare, which doubled its user population in less than six months. Among other features, Foursquare allows users to leave tips (i.e., reviews or recommendations) at specific venues as well as to give feedback on previously posted tips by adding them to their to-do lists or marking them as done. In this paper, we analyze how Foursquare users exploit these three features - tips, dones and to-dos - uncovering different behavior profiles. Our study reveals the existence of very active and influential users, some of which are famous businesses and brands, that seem engaged in posting tips at a large variety of venues while also receiving a great amount of user feedback on them. We also provide evidence of spamming, showing the existence of users that post tips whose contents are unrelated to the nature or domain of the venue where the tips were left.",
+    "link": "https://doi.org/10.1145/2124295.2124372"
+  },
+  {
+    "title": "When will it happen?: relationship prediction in heterogeneous information networks.",
+    "authors": [
+      "Yizhou Sun",
+      "Jiawei Han",
+      "Charu C. Aggarwal",
+      "Nitesh V. Chawla"
+    ],
+    "abstract": "Link prediction, i.e., predicting links or interactions between objects in a network, is an important task in network analysis. Although the problem has attracted much attention recently, there are several challenges that have not been addressed so far. First, most existing studies focus only on link prediction in homogeneous networks, where all objects and links belong to the same type. However, in the real world,heterogeneous networksthat consist of multi-typed objects and relationships are ubiquitous. Second, most current studies only concern the problem ofwhethera link will appear in the future but seldom pay attention to the problem ofwhenit will happen. In this paper, we address both issues and study the problem ofpredicting when a certain relationship will happen in the scenario of heterogeneous networks. First, we extend the link prediction problem to the relationship prediction problem, by systematically defining both the target relation and the topological features, using a meta path-based approach. Then, we directly model the distribution of relationship building time with the use of the extracted topological features. The experiments on citation relationship prediction between authors on the DBLP network demonstrate the effectiveness of our methodology.",
+    "link": "https://doi.org/10.1145/2124295.2124373"
+  },
+  {
+    "title": "The life and death of online groups: predicting group growth and longevity.",
+    "authors": [
+      "Sanjay Ram Kairam",
+      "Dan J. Wang",
+      "Jure Leskovec"
+    ],
+    "abstract": "We pose a fundamental question in understanding how to identify and design successful communities: What factors predict whether a community will grow and survive in the long term? Social scientists have addressed this question extensively by analyzing offline groups which endeavor to attract new members, such as social movements, finding that new individuals are influenced strongly by their ties to members of the group. As a result, prior work on the growth of communities has treated growth primarily as a diffusion processes, leading to findings about group evolution which can be difficult to explain. The proliferation of online social networks and communities, however, has created new opportunities to study, at a large scale and with very fine resolution, the mechanisms which lead to the formation, growth, and demise of online groups.",
+    "link": "https://doi.org/10.1145/2124295.2124374"
+  },
+  {
+    "title": "Evaluating search in personal social media collections.",
+    "authors": [
+      "Chia-Jung Lee",
+      "W. Bruce Croft",
+      "Jin Young Kim"
+    ],
+    "abstract": "The prevalence of social media applications is generating potentially large personal archives of posts, tweets, and other communications. The existence of these archives creates a need for search tools, which can be seen as an extension of current desktop search services. Little is currently known about the best search techniques for personal archives of social data, because of the difficulty of creating test collections. In this paper, we describe how test collections for personal social data can be created by using games to collect queries. We then compare a range of retrieval models that exploit the semi-structured nature of social data. Our results show that a mixture of language models with field distribution estimation can be effective for this type of data, with certain fields, such as the name of the poster, being particularly important. We also analyze the properties of the queries that were generated by users with two versions of the games.",
+    "link": "https://doi.org/10.1145/2124295.2124375"
+  },
+  {
+    "title": "Learning evolving and emerging topics in social media: a dynamic nmf approach with temporal regularization.",
+    "authors": [
+      "Ankan Saha",
+      "Vikas Sindhwani"
+    ],
+    "abstract": "As massive repositories of real-time human commentary, social media platforms have arguably evolved far beyond passive facilitation of online social interactions. Rapid analysis of information content in online social media streams (news articles, blogs,tweets etc.) is the need of the hour as it allows business and government bodies to understand public opinion about products and policies. In most of these settings, data points appear as a stream of high dimensional feature vectors. Guided by real-world industrial deployment scenarios, we revisit the problem of online learning of topics from streaming social media content. On one hand, the topics need to be dynamically adapted to the statistics of incoming datapoints, and on the other hand, early detection of rising new trends is important in many applications. We propose an online nonnegative matrix factorizations framework to capture the evolution and emergence of themes in unstructured text under a novel temporal regularization framework. We develop scalable optimization algorithms for our framework, propose a new set of evaluation metrics, and report promising empirical results on traditional TDT tasks as well as streaming Twitter data. Our system is able to rapidly capture emerging themes, track existing topics over time while maintaining temporal consistency and continuity in user views, and can be explicitly configured to bound the amount of information being presented to the user.",
+    "link": "https://doi.org/10.1145/2124295.2124376"
+  }
+]
