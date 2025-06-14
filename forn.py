@@ -71,7 +71,10 @@ def cluster():
         })
 
     except Exception as e:
+        import traceback
+        print(traceback.format_exc())
         return jsonify({"error": str(e)}), 500
+
 
 @app.route("/download/<folder>/<filename>")
 def download_result(folder, filename):
