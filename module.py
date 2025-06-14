@@ -71,7 +71,7 @@ def modify_paper(record, folder):
     for word in word_dict:
         word_dict[word] = (word_dict[word] / max_f) * idf_data.get(word, 1.0)
 
-    return {"title": record["title"], "vector": word_dict, "label" : record["label"]}
+    return {"title": record["title"], "vector": word_dict}
 
 def toidfConfer(folder):
     input_path = f"data/{folder}/pre_process_{folder}.json"
